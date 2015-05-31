@@ -1,0 +1,60 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"Fullscreen\" value=\"true\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"HiddenStatusbarOverlay\"><param name=\"ios-package\" value=\"APPHiddenStatusbarOverlay\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "UIStatusBarHidden": [
+                        {
+                            "xml": "<true />",
+                            "count": 1
+                        }
+                    ],
+                    "UIViewControllerBasedStatusBarAppearance": [
+                        {
+                            "xml": "<false />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "Se.vgregion.munhc"
+        },
+        "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
+            "PACKAGE_NAME": "Se.vgregion.munhc"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "se.vgr.munhalsan"
+        }
+    },
+    "dependent_plugins": {}
+}

@@ -1,0 +1,39 @@
+//IOS
+body { overflow-x:hidden; background-color:#dddddd; padding:0px; }
+body img { margin:0px; }
+p  { 
+	font-family: Calibri, sans-serif; 
+	padding-bottom: 10px;
+}
+h1 { 
+	font-family: Calibri, sans-serif;
+	padding-bottom: 6px;
+}
+h2 { 
+	font-family: Calibri, sans-serif; 
+	padding-bottom: 20px;
+}
+h3 { 
+	font-family: Calibri, sans-serif; 
+	padding-bottom: 20px;
+}
+
+img {
+	padding-bottom: 0px;
+}
+img.bottompadding {
+	padding-bottom: 75px;
+}
+
+.hide_if_eng {
+	padding-bottom: 75px;
+}
+
+
+#logo { text-align: center; margin-top:-3px; margin-bottom:-3px; }
+#logo img { width:66px; height:66px; }
+#bottom_rand { width:100%; position:absolute; bottom:0px; background: none;  text-align:center; }
+#bottom_rand img { vertical-align:bottom;}
+#bilder img { width:100%; }
+#flags { text-align:center; margin-top:-16px; }
+#flags img { width:65px; height:40px; margin-right:10px; margin-bottom: 4px;
