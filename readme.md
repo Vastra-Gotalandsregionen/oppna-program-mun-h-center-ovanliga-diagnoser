@@ -2,9 +2,8 @@
 #The MHC-Mobile Application
 ###Available at [Itunes for iOS](https://itunes.apple.com/us/app/mhc-appen/id534148146?mt=8) and [Google Play for Android](https://play.google.com/store/apps/details?id=se.vgr.munhalsan&hl=sv)
 ### Screenshots from the app
-![Image of MainView](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/main.jpeg?raw=true)   |  ![Image of acclimatization](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/acclimatization.jpeg?raw=true) 
---  | --
-![Image of diagnosisView](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/brushing.jpeg?raw=true)   | ![Image of Yaktocat](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/diagnosis.jpeg?raw=true)
+![Image of MainView](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/main.jpeg?raw=true)   |  ![Image of acclimatization](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/acclimatization.jpeg?raw=true) | ![Image of diagnosisView](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/brushing.jpeg?raw=true)   | ![Image of Yaktocat](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/diagnosis.jpeg?raw=true)
+----  | ---- | ---- | ----
 
 ##Description
 The MHC-Mobile app gives you the opportunity to simply and rapidly find information about rare diseases and how these conditions might have an impact on oral health and orofacial function. The information has been retrieved mainly from the following sources:
