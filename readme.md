@@ -1,6 +1,6 @@
 
 #The MHC-Mobile Application
-####Available at [App Store for iOS](https://itunes.apple.com/us/app/mhc-appen/id534148146?mt=8) and [Google Play for Android](https://play.google.com/store/apps/details?id=se.vgr.munhalsan&hl=sv)
+Available at [App Store for iOS](https://itunes.apple.com/us/app/mhc-appen/id534148146?mt=8) and [Google Play for Android](https://play.google.com/store/apps/details?id=se.vgr.munhalsan&hl=sv)
 ### Screenshots from the app
 ![Image of MainView](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/main.jpeg?raw=true)   |  ![Image of acclimatization](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/acclimatization.jpeg?raw=true) | ![Image of diagnosisView](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/brushing.jpeg?raw=true)   | ![Image of Yaktocat](https://github.com/Vastra-Gotalandsregionen/oppna-program-mun-h-center-ovanliga-diagnoser/blob/master/GitImages/diagnosis.jpeg?raw=true)
 ----  | ---- | ---- | ----
