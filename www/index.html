@@ -1,19 +1,18 @@
-<!DOCTYPE html> 
-<html> 
-	<head> 
-		<title>Mun-H-Center</title> 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mun-H-Center</title>
 		<link rel="stylesheet" href="framework/jquery.mobile-1.1.1.css" />
 		<link rel="stylesheet" href="css/themes/Munhalsan.css" />
 		<link rel="stylesheet" href="css/munhalsan.css" />
-		<script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script>
 		<script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
 		<script type="text/javascript" src="framework/jquery-1.7.1.js"></script>
 		<script type="text/javascript" src="js/mobileinit.js"></script>
-		<script src="cordova.js"></script>	
-		<script type="text/javascript" src="framework/jquery.mobile-1.1.1.min.js"></script>	
+		<script src="cordova.js"></script>
+		<script type="text/javascript" src="framework/jquery.mobile-1.1.1.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/lang.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/data.js"></script>
-		<script type="text/javascript"  charset="utf-8" src="js/datahandler.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/datahandler.js"></script>
 		<script type="text/javascript" src="js/munhalsan.js"></script>
 		<meta name="viewport" content="width=device-width, user-scalable=no" />
 		<!-- <meta content="width=device-width, initial-scale=1, maximum-scale=1.75" name="viewport"> -->
@@ -22,12 +21,12 @@
 	<body onload="onLoad()">
 
 		<!-- *************** Main Page *************** -->
-		
-		<div data-role="page" id="main">		
+
+		<div data-role="page" id="main">
 			<div data-role="header"   data-position="fixed" data-tap-toggle="false">
 				<h1>Mun-H-Center</h1>
-			</div><!-- /header -->			
-			<div data-role="content">	
+			</div><!-- /header -->
+			<div data-role="content">
 				<div id="logo" class="logoClass"  > <img src="img/logo.jpg"/></div>
 				<a href="#diagnoser" data-role="button" data-icon="arrow-r"><span class="lang_diagnoser">Diagnoser</span></a>
 				<a href="#munvard" data-role="button" data-icon="arrow-r" ><span class="lang_munvard">Munv&aring;rd f&ouml;r barn</span></a>
@@ -46,78 +45,78 @@
 				<img src="img/folktandvarden_rand.jpeg" width="100%" />
 			</div>
 		</div><!-- /page -->
-		
+
 		<!-- *************** Favorites ************	*** -->
-		
-		<div data-role="page" id="favorites">	
+
+		<div data-role="page" id="favorites">
 			<div data-role="header"   data-position="fixed" data-tap-toggle="false">
-				<a href="#main" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a> 
-				<h1><span class="lang_favoriter">Senaste s&ouml;kningarna</span></h1>		
-			</div><!-- /header -->			
-			<div data-role="content">	
-				<ul id="favoriteslistview" data-role="listview" data-inset="true">		
+				<a href="#main" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a>
+				<h1><span class="lang_favoriter">Senaste s&ouml;kningarna</span></h1>
+			</div><!-- /header -->
+			<div data-role="content">
+				<ul id="favoriteslistview" data-role="listview" data-inset="true">
 				</ul>
 			</div><!-- /content -->
-			<div data-role="footer" data-id="myfooter" data-position="fixed" data-tap-toggle="false"> 
+			<div data-role="footer" data-id="myfooter" data-position="fixed" data-tap-toggle="false">
 				<div data-role="navbar">
 					<ul>
 						<li><a href="#diagnoser" data-icon="arrow-r"><span class="lang_diagnoser">Diagnoser</span></a></li>
 					</ul>
-				</div> 
+				</div>
 			</div>
-		</div><!-- /page -->		
+		</div><!-- /page -->
 		<!-- *************** Diagnoser *************** -->
-		
-		<div data-role="page" id="diagnoser" data-cache="never">		
+
+		<div data-role="page" id="diagnoser" data-cache="never">
 			<div data-role="header"    data-position="fixed" data-tap-toggle="false" page-zoom="true">
-				<a href="#main" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a> 
+				<a href="#main" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a>
 				<h1><span class="lang_diagnoser">Diagnoser</span></h1>
-			</div><!-- /header -->			
-			<div id="diagnoser_content" data-role="content">	
+			</div><!-- /header -->
+			<div id="diagnoser_content" data-role="content">
 				<ul id="diagnoserlistview" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="S&ouml;k..."></ul>
-			</div><!-- /content -->			
-			<div data-role="footer" data-id="myfooter" data-position="fixed" data-tap-toggle="false" page-zoom="true"> 
+			</div><!-- /content -->
+			<div data-role="footer" data-id="myfooter" data-position="fixed" data-tap-toggle="false" page-zoom="true">
 				<div data-role="navbar">
 					<ul>
 						<li><a href="#favorites" data-icon="star"><span class="lang_favoriter">Senaste s&ouml;kningarna</span></a></li>
 					</ul>
 				</div>
-			</div> 
+			</div>
 		</div><!-- /page -->
-					
+
 		<!-- *************** Diagnos *************** -->
-		
-		<div data-role="page" id="diagnos" data-dom-cache="true">		
+
+		<div data-role="page" id="diagnos" data-dom-cache="true">
 			<div data-role="header"   data-position="fixed" data-tap-toggle="false">
-				<a href="#diagnoser" data-rel="back" data-role="button" data-icon="back"><span class="lang_tillbaka">tillbaka</span></a> 
-				<h1 id="diagnosnamn"><span class="lang_diagnos">Diagnos</span></h1>						
-			</div><!-- /header -->			
+				<a href="#diagnoser" data-rel="back" data-role="button" data-icon="back"><span class="lang_tillbaka">tillbaka</span></a>
+				<h1 id="diagnosnamn"><span class="lang_diagnos">Diagnos</span></h1>
+			</div><!-- /header -->
 			<div data-role="content">
-				<h2 id="diagnosnamn_titel"></h2>				
-				<div data-role="collapsible-set">	
+				<h2 id="diagnosnamn_titel"></h2>
+				<div data-role="collapsible-set">
 					<div data-role="collapsible" data-collapsed="false" data-theme="e" data-content-theme="c">
-					   <h3><span class="lang_allmant" id="allmant_collapsible">Allm&auml;nt</span></h3>			   
+					   <h3><span class="lang_allmant" id="allmant_collapsible">Allm&auml;nt</span></h3>
 						<div data-role="collapsible-set">
 							<div data-role="collapsible" id="synonym_collapsible">
 							   <h3><span class="lang_synonym">Synonym</span></h3>
 							   <p id="synonym"></p>
-							</div>							
+							</div>
 							<div data-role="collapsible" id="forekomst_collapsible">
 							   <h3><span class="lang_forekomst">Ber&auml;knad f&ouml;rekomst</span></h3>
 							   <p id="forekomst"></p>
-							</div>							
+							</div>
 							<div data-role="collapsible" id="orsak_collapsible">
 							   <h3><span class="lang_orsak">Orsak</span></h3>
 							   <p id="orsak"></p>
-							</div>							
+							</div>
 							<div data-role="collapsible"  id="allmanna_symptom_collapsible">
 							   <h3><span class="lang_allmanna_symtom">Allm&auml;nna symtom</span></h3>
 							   <p id="allmanna_symptom"></p>
-							</div>		
+							</div>
 							<div data-role="collapsible" id="diagnoskod_collapsible">
 							   <h3><span class="lang_diagnoskod">ICD-10 diagnoskod</span></h3>
 							   <p id="diagnoskod"></p>
-							</div>							
+							</div>
 						</div>
 					</div>
 					<div data-role="collapsible" data-collapsed="true" data-theme="e" data-content-theme="c"  id="odontologiska_symptom_collapsible">
@@ -132,9 +131,9 @@
 					   <h3><span class="lang_bilder">Bilder</span></h3>
 					   <p id="bilder"></p>
 					</div>
-				</div>	
+				</div>
 			</div>
-			<div data-role="footer" data-id="myfooter" data-position="fixed" data-tap-toggle="false"> 
+			<div data-role="footer" data-id="myfooter" data-position="fixed" data-tap-toggle="false">
 				<div data-role="navbar">
 					<ul>
 						<li><a href="#main" data-icon="home"><span class="lang_hem_capital">Hem</span></a></li>
@@ -143,9 +142,9 @@
 				</div>
 			</div>
 		</div><!-- /page -->
-		
+
 		<!-- *************** Dialog *************** -->
-		
+
 		<div data-role="dialog" id="dialog">
 			<div data-role="header">
 				<h1 id="dialog_header">&Ouml;ppet bett</h1>
@@ -154,251 +153,251 @@
 				<img src="img/ord/oppet_bett.jpg" width="100%" id="dialog_img" />
 			</div><!-- /content -->
 		</div> <!-- /page -->
-				
+
 		<!-- *************** Info *************** -->
-		
+
 		<div data-role="page" id="info">
 			<div data-role="header"    data-position="fixed" data-tap-toggle="false">
-				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a> 
-				<h1><span class="lang_info">Info</span></h1>				
-			</div><!-- /header -->		
-			<div data-role="content">	
+				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a>
+				<h1><span class="lang_info">Info</span></h1>
+			</div><!-- /header -->
+			<div data-role="content">
 				<span class="lang_info_text">text</span>
-			</div>			
-		</div><!-- /page -->	
-		
+			</div>
+		</div><!-- /page -->
+
 		<!-- *************** Sources of information *************** -->
-		
+
 		<div data-role="page" id="kallor">
 			<div data-role="header"    data-position="fixed" data-tap-toggle="false">
-				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a> 
-				<h1><span class="lang_kallor">Informationsk&auml;llor</span></h1>				
-			</div><!-- /header -->		
-			<div data-role="content">	
+				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a>
+				<h1><span class="lang_kallor">Informationsk&auml;llor</span></h1>
+			</div><!-- /header -->
+			<div data-role="content">
 				<span class="lang_kallor_text">k&auml;llor</span>
-			</div>			
-		</div><!-- /page -->	
-		
+			</div>
+		</div><!-- /page -->
+
 		<!-- *************** Contact *************** -->
-		
+
 		<div data-role="page" id="kontakt">
 			<div data-role="header"   data-position="fixed" data-tap-toggle="false">
-				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a> 
-				<h1><span class="lang_kontakt">Kontakt</span></h1>				
-			</div><!-- /header -->		
-			<div data-role="content">	
+				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a>
+				<h1><span class="lang_kontakt">Kontakt</span></h1>
+			</div><!-- /header -->
+			<div data-role="content">
 				<span class="lang_contact_text">Kontakt</span>
 				<p>
 					mun-h-center@vgregion.se<br />
 					<a href="http://www.mun-h-center.se" target="_blank">www.mun-h-center.se</a>
 				</p>
-			</div>			
+			</div>
 		</div><!-- /page -->
 		<!-- *************** Munvard *************** -->
-		
+
 		<div data-role="page" id="munvard">
 			<div data-role="header"   data-position="fixed" data-tap-toggle="false">
-				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a> 
+				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a>
 				<h1><span class="lang_munvard_short">Munv&aring;rd</span></h1>
-							
-			</div><!-- /header -->		
-			<div data-role="content">	
+
+			</div><!-- /header -->
+			<div data-role="content">
 				<a href="#tandborstning"   data-role="button" data-icon="arrow-r"><span class="lang_tandborstning">Tips vid tandborstning</span></a>
 				<a href="#muntorrhet" data-role="button" data-icon="arrow-r"><span class="lang_muntorrhet">Tips vid muntorrhet</span></a>
-			</div>			
-		</div><!-- /page -->	
+			</div>
+		</div><!-- /page -->
 			<!-- *************** Inskolning *************** -->
-		
+
 		<div data-role="page" id="inskolning">
 			<div data-role="header"   data-position="fixed" data-tap-toggle="false">
-				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a> 
-				<h1><span class="lang_inskolning_short">Inskolning</span></h1>				
-			</div><!-- /header -->		
-			<div data-role="content">	
+				<a href="#main" data-rel="back" data-role="button" data-icon="home"><span class="lang_hem">hem</span></a>
+				<h1><span class="lang_inskolning_short">Inskolning</span></h1>
+			</div><!-- /header -->
+			<div data-role="content">
 				<h2><span class="lang_inskolning_text1">Inskolning</span></h2>
 				<h3><span class="lang_inskolning_text2"></span></h3>
 				<p><span class="lang_inskolning_text3"></span> </p>
-				
-				<div > 
+
+				<div >
 					<iframe width="100%" id="tubePlayer" src="https://www.youtube.com/embed/vuNtRwc6MvY?rel=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
 					<p><span class="lang_inskolning_text4"></span> </p>
 				</div>
 				<h3><span class="lang_inskolning_text5"></span></h3>
-				<div > 
-					<img src="img/inskolning/Insk_2.jpg" width="100%" alt="Failed to load image">	
+				<div >
+					<img src="img/inskolning/Insk_2.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text6"></span> </p>
 				</div>
-				
-				<div > 
+
+				<div >
 					<img src="img/inskolning/Insk_3a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text7"></span> </p>
 				</div>
 				<h3><span class="lang_inskolning_text8"></span></h3>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_4.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text9"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_5.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text10"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_6.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text11"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_7.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text12"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_8a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text13"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_9a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text14"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_10.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text15"></span> </p>
 				</div>
 				<h3><span class="lang_inskolning_text16"></span></h3>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_11.png	" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text17"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_12.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text18"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_13a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text19"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_14a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text20"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_15a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text21"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_16a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text22"></span> </p>
 				</div>
-					<div > 
+					<div >
 					<img src="img/inskolning/Insk_17a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text23"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_18a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text24"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_19a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text25"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_20a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text26"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_21a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text27"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_22a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text28"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_23a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text29"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_24a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text30"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_25a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text31"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_26a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text32"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_27a.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text33"></span> </p>
 				</div>
-				<div > 
+				<div >
 					<img src="img/inskolning/Insk_28.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_inskolning_text35"></span> </p>
 				</div>
-			</div>			
-		</div><!-- /page -->	
+			</div>
+		</div><!-- /page -->
 					<!-- *************** Tandborstning *************** -->
-		
+
 		<div data-role="page" id="tandborstning">
 			<div data-role="header"   data-position="fixed" data-tap-toggle="false">
-				<a href="#main" data-rel="back" data-role="button" data-icon="back"><span class="lang_munvard_short">Munv&aring;rd f&ouml;r barn</span></a> 
-				<h1><span class="lang_tandborstning_short">Tandborstning</span></h1>			
-			</div><!-- /header -->		
-			<div data-role="content">	
+				<a href="#main" data-rel="back" data-role="button" data-icon="back"><span class="lang_munvard_short">Munv&aring;rd f&ouml;r barn</span></a>
+				<h1><span class="lang_tandborstning_short">Tandborstning</span></h1>
+			</div><!-- /header -->
+			<div data-role="content">
 				<h2><span class="lang_tandborstning_text1">MUNV&Aring;RD F&Ouml;R BARN - Tips vid tandborstning</span></h2>
 
-				<div > 
+				<div >
 					<p><span class="lang_tandborstning_text37"></span> </p>
 				</div>
 
-				<div > 
-					<img src="img/tandborstning/tb_1.jpg" width="100%" alt="Failed to load image">	
+				<div >
+					<img src="img/tandborstning/tb_1.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_tandborstning_text2"></span> </p>
 				</div>
 				<h3><span class="lang_tandborstning_text3">TIPS P&Aring; OLIKA ARBETSST&Auml;LLNINGAR VID TANDBORSTNING</span></h3>
 				<div>
-					<img src="img/tandborstning/tb_2.jpg" width="100%" alt="Failed to load image">	
+					<img src="img/tandborstning/tb_2.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_tandborstning_text4"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_3.jpg" width="100%" alt="Failed to load image">	
+					<img src="img/tandborstning/tb_3.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_tandborstning_text5"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_4.jpg" width="100%" alt="Failed to load image">	
+					<img src="img/tandborstning/tb_4.jpg" width="100%" alt="Failed to load image">
 					<p><span class="lang_tandborstning_text6"></span></p>
-				</div>				
+				</div>
 				<div>
-					<img src="img/tandborstning/tb_5.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_5.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text7"></span></p>
 				</div>
 				<h3><span class="lang_tandborstning_text8"></span></h3>
 				<div>
-					<img src="img/tandborstning/tb_6a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_6a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text9"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_7a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_7a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text10"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_8a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_8a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text11"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_9a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_9a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text13"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_10a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_10a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text14"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_11a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_11a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text15"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_12a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_12a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text16"></span></p>
 				</div>
 				<div>
@@ -406,21 +405,21 @@
 					<p><span class="lang_tandborstning_text17"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_14a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_14a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text18"></span></p>
 				</div>
 
 				<div>
-					<img src="img/tandborstning/tb_15.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_15.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text19"></span></p>
 				</div>
 
 				<div>
-					<img src="img/tandborstning/tb_16a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_16a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text20"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_17a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_17a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text21"></span></p>
 				</div>
 				<div>
@@ -434,69 +433,69 @@
 				<h3><span class="lang_tandborstning_text24">VAL AV TANDKR&Auml;M</span></h3>
 
 				<div>
-					<img src="img/tandborstning/tb_20a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_20a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text25"></span></p>
 				</div>
 				<div>
-					<img class="hide_if_eng" src="img/tandborstning/tb_21.jpg" width="100%"  alt="Failed to load image">	
+					<img class="hide_if_eng" src="img/tandborstning/tb_21.jpg" width="100%"  alt="Failed to load image">
 					<br>
 				</div>
 				<div>
-					<img  src="img/tandborstning/tb_22a.jpg" width="100%"  alt="Failed to load image">	
+					<img  src="img/tandborstning/tb_22a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text27"></span></p>
 				</div>
 				<div>
-					<img  src="img/tandborstning/tb-23-24.jpeg" width="100%"  alt="Failed to load image">	
+					<img  src="img/tandborstning/tb-23-24.jpeg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text28"></span></p>
 				</div>
-	
+
 				<div>
-					<img src="img/tandborstning/tb_25a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_25a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text29"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_26.jpeg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_26.jpeg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text36"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_27a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_27a.jpg" width="100%"  alt="Failed to load image">
 					<p><span class="lang_tandborstning_text30"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_28a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_28a.jpg" width="100%"  alt="Failed to load image">
 					<p ><span class="lang_tandborstning_text31"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_29a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_29a.jpg" width="100%"  alt="Failed to load image">
 					<p ><span class="lang_tandborstning_text32"></span></p>
 				</div>
 				<div>
-					<img src="img/tandborstning/tb_30a.jpg" width="100%"  alt="Failed to load image">	
+					<img src="img/tandborstning/tb_30a.jpg" width="100%"  alt="Failed to load image">
 					<p ><span class="lang_tandborstning_text33"></span></p>
 					<p ><span class="lang_tandborstning_text34"></span></p>
 
 				</div>
-			</div>			
+			</div>
 		</div><!-- /page -->
 		<!--------------- MUNTORRHET---------------->
 		<div data-role="page" id="muntorrhet">
 			<div data-role="header"    data-position="fixed" data-tap-toggle="false">
-				<a href="#main" data-rel="back" data-role="button" data-icon="back"><span class="lang_munvard_short">Munv&aring;rd f&ouml;r barn</span></a> 
+				<a href="#main" data-rel="back" data-role="button" data-icon="back"><span class="lang_munvard_short">Munv&aring;rd f&ouml;r barn</span></a>
 				<h1><span class="lang_muntorrhet_short">Muntorrhet</span></h1>
 
-			</div><!-- /header -->		
-			<div data-role="content">	
+			</div><!-- /header -->
+			<div data-role="content">
 			<h2><span class="lang_muntorrhet_text1"></span></h2>
-			<div > 
+			<div >
 				<p><span class="lang_tandborstning_text37"></span> </p>
 			</div>
 
 			<div>
-				<img src="img/muntorrhet/mt_1.jpg" width="100%"  alt="Failed to load image">	
+				<img src="img/muntorrhet/mt_1.jpg" width="100%"  alt="Failed to load image">
 				<p><span class="lang_muntorrhet_text2"></span></p>
 			</div>
 			<div>
-				<img src="img/muntorrhet/mt_2.jpg" width="100%"  alt="Failed to load image">	
+				<img src="img/muntorrhet/mt_2.jpg" width="100%"  alt="Failed to load image">
 				<p><span class="lang_muntorrhet_text3"></span></p>
 			</div>
 			<div>
@@ -505,38 +504,72 @@
 			</div>
 
 			<h3><span class="lang_muntorrhet_text5"></span></h3>
-	
+
 			<div>
-				<img src="img/muntorrhet/mt_3.jpg" width="100%"  alt="Failed to load image">	
+				<img src="img/muntorrhet/mt_3.jpg" width="100%"  alt="Failed to load image">
 				<p><span class="lang_muntorrhet_text6"></span></p>
 			</div>
 
 			<h3><span class="lang_muntorrhet_text7"></span></h3>
 
 			<div>
-				<img src="img/muntorrhet/mt_4.jpg" width="100%"  alt="Failed to load image">	
+				<img src="img/muntorrhet/mt_4.jpg" width="100%"  alt="Failed to load image">
 				<p><span class="lang_muntorrhet_text8"></span></p>
 			</div>
+
 			<div>
-				<img src="img/muntorrhet/mt_5.jpg" width="100%"  alt="Failed to load image">	
+				<img src="img/muntorrhet/mt_8.jpg" width="100%"  alt="Failed to load image">
+				<p><span class="lang_muntorrhet_text13"></span></p>
+			</div>
+
+			<div>
+				<img src="img/muntorrhet/mt_5.jpg" width="100%"  alt="Failed to load image">
 				<p><span class="lang_muntorrhet_text9"></span></p>
 			</div>
 			<div>
-				<img src="img/muntorrhet/mt_6.jpg" width="100%"  alt="Failed to load image">	
+				<img src="img/muntorrhet/mt_6.jpg" width="100%"  alt="Failed to load image">
 				<p><span class="lang_muntorrhet_text10"></span></p>
 			</div>
 			<div>
-				<img src="img/muntorrhet/mt_7.jpg" width="100%"  alt="Failed to load image">	
+				<img src="img/muntorrhet/mt_7.jpg" width="100%"  alt="Failed to load image">
 				<p><span class="lang_muntorrhet_text11"></span></p>
 			</div>
+
+			<h3><span class="lang_muntorrhet_text14"></span></h3>
+
+			<div>
+				<img src="img/muntorrhet/tb_21.jpg" width="100%"  alt="Failed to load image">
+				<p><span class="lang_muntorrhet_text15"></span></p>
+			</div>
+
+			<div>
+				<img src="img/muntorrhet/mt_10.jpg" width="100%"  alt="Failed to load image">
+				<p><span class="lang_muntorrhet_text16"></span></p>
+			</div>
+
+			<div>
+				<img src="img/muntorrhet/mt_9.jpg" width="100%"  alt="Failed to load image">
+				<p><span class="lang_muntorrhet_text17"></span></p>
+			</div>
+
+			<div>
+				<img src="img/muntorrhet/tb_28a.jpg" width="100%"  alt="Failed to load image">
+				<p><span class="lang_muntorrhet_text18"></span></p>
+			</div>
+
+			<div>
+				<img src="img/muntorrhet/tb_29a.jpg" width="100%"  alt="Failed to load image">
+				<p><span class="lang_muntorrhet_text19"></span></p>
+			</div>
+
 			<div>
 				<p><span class="lang_muntorrhet_text12"></span></p>
 			</div>
-		
 
-			</div>			
-		</div><!-- /page -->	
-	
-	
+
+			</div>
+		</div><!-- /page -->
+
+
 	</body>
 </html>

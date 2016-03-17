@@ -1,7 +1,7 @@
 var jsonStr = [{
     "Syndrom": "22q11 deletion syndrome",
     "Lang": "eng",
-    "Allm_icd_10": "Q92.8",
+    "Allm_icd_10": "D82.1",
     "Allm_synonymer": "CATCH 22, Di George syndrome, Velocardiofacial syndrome.",
     "Allm_orsak": "Chromosomal deletion of a small amount of material on the long arm (q) of chromosome 22. Autosomal dominant heredity. In most cases the 22q11-deletion syndrome is a spontaneous mutation.",
     "Allm_forekomst": "25:100,000 live births.",
@@ -13,7 +13,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "22q11-deletionssyndromet",
     "Lang": "swe",
-    "Allm_icd_10": "Q92.8",
+    "Allm_icd_10": "D82.1",
     "Allm_synonymer": "Di George syndrom, Velokardiofacialt syndrom, CATCH 22",
     "Allm_orsak": "Kromosomfel d\u00e4r en liten bit p\u00e5 den l\u00e5nga armen (q) av kromosom 22 saknas. Dominant \u00e4rftlighetsg\u00e5ng. I de flesta fall orsakas 22q11-deletionssyndrom av nymutation.",
     "Allm_forekomst": "25:100 000 levande f\u00f6dda.",
@@ -121,7 +121,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Apert syndrom",
     "Lang": "swe",
-    "Allm_icd_10": "Q87.0",
+    "Allm_icd_10": "Q87.0B",
     "Allm_synonymer": "Akrocephalosyndaktyli typ 1",
     "Allm_orsak": "Autosomalt dominant \u00e4rftlighetsg\u00e5ng med en skada p\u00e5 kromosom 10. Vanligast \u00e4r dock nymutation.",
     "Allm_forekomst": "1:100 000 levande f\u00f6dda.",
@@ -133,7 +133,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Apert syndrome",
     "Lang": "eng",
-    "Allm_icd_10": "Q87.0",
+    "Allm_icd_10": "Q87.0B",
     "Allm_synonymer": "Acrocephalosyndactyly type 1",
     "Allm_orsak": "Autosomal dominant genetic trait with Aberration on chromosome 10. Most often spontaneous mutation.",
     "Allm_forekomst": "1:100,000 live births.",
@@ -193,7 +193,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Becker muscular dystrophy",
     "Lang": "eng",
-    "Allm_icd_10": "G71.0",
+    "Allm_icd_10": "G71.0B",
     "Allm_synonymer": "",
     "Allm_orsak": "The disease is caused by a mutation in the dystrophin gene. The type of mutations occur ring in Becker muscular dystrophy results in severe deficiencies of the protein dystrophin in the muscle fibers. Dystrophin is important for muscle fiber cohesion. The absence of dystrophin renders the muscle fibers more susceptible to degeneratation. The dystrophy gene is located on the X chromosome. In about a third of the cases, the disease is caused by a new mutation.",
     "Allm_forekomst": "5-10:100,000 live births. Only affects boys.",
@@ -205,7 +205,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Beckers muskeldystrofi",
     "Lang": "swe",
-    "Allm_icd_10": "G71.0",
+    "Allm_icd_10": "G71.0B",
     "Allm_synonymer": "",
     "Allm_orsak": "Orsakas genom en mutation i dystrofingenen. Den typ av mutationer som f\u00f6rekommer vid Beckers muskeldystrofi medf\u00f6r att muskelfibrerna inneh\u00e5ller v\u00e4sentligt mindre av proteinet dystrofin \u00e4n normalt. Dystrofin har betydelse f\u00f6r muskelfibrernas h\u00e5llfasthet. Avsaknad av dystrofin leder till att muskelfibrerna l\u00e4ttare bryts ner. Dystrofingenen \u00e4r bel\u00e4gen p\u00e5 X-kromosomen. I cirka en tredjedel av fallen har en nymutation orsakat sjukdomen.",
     "Allm_forekomst": "3-5:100 000 levande f\u00f6dda. Drabbar endast  pojkar.",
@@ -335,6 +335,18 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
+    "Syndrom":"Congenital Ichtyosis",
+    "Lang":"eng",
+    "Allm_icd_10":"Q80.9",
+    "Allm_synonymer":"Lamellar ichtyosis, epidermolytic (bullous) ichtyosis, ichtyosis (congenital).",
+    "Allm_orsak":"A change in one of the genes (15 known so far) that are required for the epidermis to form a horny layer. Autosomal recessive inheritance is the most common.",
+    "Allm_forekomst":"2-4:100,000 live births",
+    "Allm_allm_symtom":"Congenital ichtyosis is characterised by skin symptoms. The skin can be scaly, red, dry, thickened, itchy, and covered in sores as the skin\u2019s protective function is affected. The following main groups also have congenital skin symptoms:\n\n<ul><li>lamellar ichtyosis<\/li>\n<li>\terythrodermic ichtyosis<\/li>\n<li>pleomorphic ichtyosis<\/li>\n<li>\tepidermolytic (bullous) ichtyosis.<\/ul><\/li>\n\nThe degree of flakiness and redness varies between the groups.",
+    "Orala_symtom":"Congenital ichtyosis in and of itself has no effect on teeth, occlusion or oral motor function, but if facial skin is tight, it may be harder to open the mouth.",
+    "Rekommendationer":"<ul><il>\tIn connection with dental treatment, any difficulties opening the mouth should be taken into consideration.<\/il><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+  }, {
     "Syndrom": "Congenital muscular dystrophies",
     "Lang": "eng",
     "Allm_icd_10": "",
@@ -361,7 +373,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Cornelia de Lange syndrome",
     "Lang": "eng",
-    "Allm_icd_10": "Q87.1",
+    "Allm_icd_10": "Q87.1C",
     "Allm_synonymer": "Brachmann-de Langes syndrom, de Langes syndrom, Typus degenerativus Amstelodamensis.",
     "Allm_orsak": "Not completely known. The majority have a defect (mutation) on the NIPBL-gene on chromosome 5.",
     "Allm_forekomst": "10-30:100,000 live births.",
@@ -373,7 +385,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Cornelia de Langes syndrom",
     "Lang": "swe",
-    "Allm_icd_10": "Q87.1",
+    "Allm_icd_10": "Q87.1C",
     "Allm_synonymer": "Brachmann-de Langes syndrom, de Langes syndrom, Typus degenerativus Amstelodamensis.",
     "Allm_orsak": "Ofullst\u00e4ndigt k\u00e4nd. Hos fler \u00e4n h\u00e4lften med diagnosen finns en skada (mutation) p\u00e5 NIPBL-genen p\u00e5 kromosom 5.",
     "Allm_forekomst": "10-30:100 000 levande f\u00f6dda.",
@@ -390,7 +402,7 @@ var jsonStr = [{
     "Allm_orsak": "Avsaknad av kromosomsegment (deletion) p\u00e5 kromosom 5.",
     "Allm_forekomst": "2:100 000 f\u00f6dda. Vanligare hos flickor.",
     "Allm_allm_symtom": "Svagt h\u00f6gfrekvent skrik hos nyf\u00f6dda p\u00e5 grund av litet struphuvud. Utvecklings&shy;st\u00f6rning, f\u00f6rsenad motorisk utveckling och muskelslapphet f\u00f6rekommer i olika grad. Infektionsk\u00e4nslighet \u00e4r vanligt. En tredjedel har medf\u00f6tt hj\u00e4rtfel.",
-    "Orala_symtom": "Ett karakt\u00e4ristiskt utseende ing\u00e5r i symtombilden. N\u00e5gra av barnen f\u00f6ds med l\u00e4pp- eller gomspalt. Bettavvikelser \u00e4r vanligt, fr\u00e4mst <a img=\\\"oppetbett\\\">\u00f6ppet bett<\/a> i framtandsregionen och <a img=\\\"overbett\\\">\u00f6verbett<\/a>. Munmotoriken \u00e4r mestadels p\u00e5verkad och sugsv\u00e5righeter, \u00e4tsv\u00e5righeter och dregling \u00e4r vanligt. Utvecklingsst\u00f6rning och munmotorisk funktionsneds\u00e4ttning medf\u00f6r kommunikationssv\u00e5righeter.",
+    "Orala_symtom": "Ett karakt\u00e4ristiskt utseende ing\u00e5r i symtombilden. N\u00e5gra av barnen f\u00f6ds med l\u00e4pp-, k\u00e4k- och/eller gomspalt. Liten underk\u00e4ke \u00e4r vanligt liksom <a img=\\\"oppetbett\\\">u00f6ppet bett<\/a> i framtandsregionen och <a img=\\\"overbett\\\">\u00f6verbett<\/a>. Munmotoriken \u00e4r mestadels p\u00e5verkad och sugsv\u00e5righeter, \u00e4tsv\u00e5righeter och dregling \u00e4r vanligt. Utvecklingsst\u00f6rning och munmotorisk funktionsneds\u00e4ttning medf\u00f6r kommunikationssv\u00e5righeter.",
     "Rekommendationer": "<UL><LI>Det \u00e4r viktigt att personer med Cri du chat syndrom tidigt f\u00e5r kontakt med tandv\u00e5rden f\u00f6r f\u00f6rst\u00e4rkt f\u00f6rebyggande v\u00e5rd. <\/LI><LI>Tand- och bettutveckling ska f\u00f6ljas. Vid avvikelser ska ortodontist konsulteras p\u00e5 tidigt stadium f\u00f6r planering av eventuell bettkorrigerande behandling. <\/LI><LI>Vid gomspalt ansvarar ett specialistteam f\u00f6r uppf\u00f6ljning och behandling. <\/LI><LI>Munmotorisk tr\u00e4ning kan vara aktuellt vid \u00e4tsv\u00e5righeter, talsv\u00e5righeter och dregling. <\/LI><LI>Tal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat. <\/LI><LI>L\u00e4karkontakt rekommenderas f\u00f6re tandbehandling vid medicinska tillst\u00e5nd, som t.ex. hj\u00e4rtfel. <\/LI><\/UL>",
     "Bild": "",
     "Bildtext": ""
@@ -402,7 +414,7 @@ var jsonStr = [{
     "Allm_orsak": "Deletion of chromosomal material on chromosome 5.",
     "Allm_forekomst": "2:100,000 live births. More common in girls.",
     "Allm_allm_symtom": "Newborns have a weak, high-pitched cry attributable to a small larynx. Mental retardation, delayed motor skill development and muscle laxity may be present to varying extents. Sensitivity to infection is common. One-third of these children have congenital heart defects.",
-    "Orala_symtom": "Characteristic facial features are associated with the diagnosis. Bite abnormalities commonly occur, most often an <a img=\\\"oppetbett\\\">open bite<\/a> in the region of the front teeth and an <a img=\\\"overbett\\\">overbite<\/a>. Oral motor function is commonly affected and the majority has sucking difficulties in infancy, eating disorders and drooling problems. Learning disability and reduced oral motor skills lead to communication problems.",
+    "Orala_symtom": "Characteristic facial features are associated with the diagnosis. Small lower jaw and narrow palate is common as well as <a img=\\\"oppetbett\\\">open bite<\/a> in the region of the front teeth and an <a img=\\\"overbett\\\">overbite<\/a>. Oral motor function is commonly affected and the majority has sucking difficulties in infancy, eating disorders and drooling problems. Learning disability and reduced oral motor skills lead to communication problems.",
     "Rekommendationer": "<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential.<\/LI><LI>Regular check-ups of dental and jaw development. Orthodontist should be consulted when needed.<\/LI><LI>Training in oral motor skills in cases of eating disorders, speech difficulties and drooling may be relevant.<\/LI><LI>Speech, language and communication training are often required.<\/LI><LI>When treating medically compromised patients always contact their doctors for medical advice (bleeding problems, heart diseases etc.).<\/LI><\/UL>",
     "Bild": "",
     "Bildtext": ""
@@ -445,7 +457,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Cystinos",
     "Lang": "swe",
-    "Allm_icd_10": "E72.0",
+    "Allm_icd_10": "E72.0A",
     "Allm_synonymer": "",
     "Allm_orsak": "Cystinos orsakas av en skada p\u00e5 den s\u00e5 kallade CTNS-genen p\u00e5 kromosom 17. Skadan leder till en ansamling av \u00e4mnet cystin (ett \u00e4ggvite\u00e4mne) i cellernas lysosymer, som i sin tur medf\u00f6r att cellernas funktion f\u00f6rs\u00e4mras och\/eller d\u00f6r. S\u00e4rskilt k\u00e4nsliga organ \u00e4r njurar, \u00f6gon och sk\u00f6ldk\u00f6rtel. Sjukdomen \u00e4rvs autosomalt recessivt.",
     "Allm_forekomst": "1:160 000 - 200 000 levande f\u00f6dda.",
@@ -457,7 +469,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Cystinosis",
     "Lang": "eng",
-    "Allm_icd_10": "E72.0",
+    "Allm_icd_10": "E72.0A",
     "Allm_synonymer": "",
     "Allm_orsak": "Cystinosis is caused by a mutation in the so-called CTNS gene on chromosome 17. This mutation causes an amino acid, cystine, to accumulate in the lysosomes of the cells. This high concentration of cystine is harmful and causes cell function to deteriorate and\/or causes cells to die. Certain organs such as the kidneys, the eyes and thyroid, are particularly sensitive to elevated levels of cystine. The disorder is inherited autosomal recessively.",
     "Allm_forekomst": "1:160,000 - 200,000 live births.",
@@ -481,7 +493,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Dravet syndrome",
     "Lang": "eng",
-    "Allm_icd_10": "G.40.4",
+    "Allm_icd_10": "G40.4",
     "Allm_synonymer": "Severe myoclonic epilepsy of infancy, SMEI",
     "Allm_orsak": "Genetic, often a change to chromosome 2 (2q24.1). Heredity is autosomal dominant, but in most cases, the disease is caused by a de novo mutation.",
     "Allm_forekomst": "3-5:100,000 live births. More common in boys.",
@@ -505,7 +517,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Duchenne muscular dystrophy",
     "Lang": "eng",
-    "Allm_icd_10": "G71.0",
+    "Allm_icd_10": "G71.0A",
     "Allm_synonymer": "",
     "Allm_orsak": "A shortage of the protein dystrophin, which stabilizes muscle fibers. This lack of dystrophin results in deterioration of muscular fiber. Duchenne muscular dystrophy is an Xlinked inherited disorder. Female carriers have no symptoms. One-third of all cases are spontaneous mutations.",
     "Allm_forekomst": "30:1000,000 inhabitants. Only affects boys.",
@@ -517,7 +529,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Duchennes muskeldystrofi",
     "Lang": "swe",
-    "Allm_icd_10": "G71.0",
+    "Allm_icd_10": "G71.0A",
     "Allm_synonymer": "",
     "Allm_orsak": "Brist p\u00e5 proteinet dystrofin vars uppgift \u00e4r att stabilisera muskelfibrerna. Avsaknad av dystrofin leder till nedbrytning av muskelfibrer. Sjukdomen \u00e4r \u00e4rftlig via X-kromosomen. Kvinnor som b\u00e4r p\u00e5 anlaget har inga symtom. I en tredjedel av alla fall uppkommer sjukdomen genom nymutation.",
     "Allm_forekomst": "30:1 000 000 inv\u00e5nare. Drabbar endast pojkar.",
@@ -529,13 +541,13 @@ var jsonStr = [{
 }, {
     "Syndrom": "Dystrofia myotonika",
     "Lang": "swe",
-    "Allm_icd_10": "G71.0",
+    "Allm_icd_10": "G71.1",
     "Allm_synonymer": "Steinerts sjukdom.",
     "Allm_orsak": "Dystrofia myotonika typ 1 (DM1) \u00e4r en neuromuskul\u00e4r sjukdom med autosomalt dominant ned\u00e4rvning. DM1 orsakas av en skada (trinukleotid expansion) p\u00e5 DMPK-genen p\u00e5 kromosom 19 (19q13.3).",
     "Allm_forekomst": "120:1000 000 inv\u00e5nare.",
     "Allm_allm_symtom": "DM1 kan indelas i fyra undergrupper beroende p\u00e5 vid vilken \u00e5lder sjukdomen debuterar - medf\u00f6dd, barndomsdebuterande, klassisk och mild form. Ju tidigare sjukdomen debuterar ju allvarligare blir som regel symtomen. Muskulaturen \u00e4r p\u00e5verkad i varierande grad men \u00e4ven andra organ i kroppen kan vara drabbade. Vanliga symtom \u00e4r muskelsvaghet, myotoni (stelhet i muskel efter aktivering), hj\u00e4rtsymtom, gr\u00e5 starr, magtarmproblem, endokrina symtom, tr\u00f6tthet samt nedsatt syn och h\u00f6rsel. Inl\u00e4rningssv\u00e5righeter och beteendeproblematik \u00e4r vanligt hos dem som f\u00e5r sjukdomen f\u00f6re 10 \u00e5rs \u00e5lder men \u00e4ven vid debut i vuxen \u00e5lder kan kognitiva funktioner vara p\u00e5verkade. Sjukdomens f\u00f6rlopp \u00e4r l\u00e5ngsamt fortskridande.",
-    "Orala_symtom": "Det \u00e4r vanligt med sugsv\u00e5righeter och andningsproblem hos nyf\u00f6dda som ofta \u00e4r mycket muskelslappa. Svaga muskler i och kring munnen ger utsl\u00e4tad mimik, \u00f6ppen mun i vila, \u00e4tsv\u00e5righeter, talsv\u00e5righeter och dregling. Talet kan vara otydligt och \u00f6ppet nasalt. M\u00e5nga har speciellt sv\u00e5rt att uttala l\u00e4ppljuden: \/b\/, \/p\/ och \/m\/. Muskelsvagheten kan p\u00e5verka tillv\u00e4xten i ansiktsskelettet vilket ibland kan orsaka bettavvikelse. H\u00f6g gom och <a img=\\\"oppetbett\\\">\u00f6ppet bett<\/a> \u00e4r d\u00e5 vanligt. K\u00e4kledsbesv\u00e4r och reducerad gapf\u00f6rm\u00e5ga kan f\u00f6rekomma. Salivproduktionen kan vara minskad och sj\u00e4lvreng\u00f6ringsf\u00f6rm\u00e5gan nedsatt vilket \u00f6kar risken f\u00f6r karies (h\u00e5l i t\u00e4nderna). Det finns en \u00f6kad k\u00e4nslighet f\u00f6r m\u00e5nga narkosmedel. M\u00e5nga f\u00e5r en reducerad gapf\u00f6rm\u00e5ga.",
-    "Rekommendationer": "<UL><LI>De flesta med DM1 beh\u00f6ver f\u00f6rst\u00e4rkt f\u00f6rebyggande tandv\u00e5rd. <\/LI><LI>Tand- och bettutveckling ska f\u00f6ljas. Vid avvikelser ska ortodontist konsulteras p\u00e5 tidigt stadium f\u00f6r planering av eventuell bettkorrigerande behandling. <\/LI><LI>K\u00e4kledsbesv\u00e4r b\u00f6r utredas och vid behov behandlas. <\/LI><LI>Gapf\u00f6rm\u00e5gan b\u00f6r f\u00f6ljas. <\/LI><LI>Orofacial terapi och munmotorisk tr\u00e4ning och stimulering vid \u00e4tsv\u00e5righeter och dregling. Effekten av tr\u00e4ningen b\u00f6r f\u00f6ljas upp regelbundet. <\/LI><LI>Tal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat. <\/LI><LI>L\u00e4karkontakt rekommenderas  f\u00f6re tandbehandling vid medicinska tillst\u00e5nd, som t.ex. hj\u00e4rtfel. <\/LI><\/UL>",
+    "Orala_symtom": "Det \u00e4r vanligt med sugsv\u00e5righeter och andningsproblem hos nyf\u00f6dda som ofta \u00e4r mycket muskelslappa. Svaga muskler i och kring munnen ger utsl\u00e4tad mimik, \u00f6ppen mun i vila, \u00e4tsv\u00e5righeter, talsv\u00e5righeter och dregling. Talet kan vara otydligt och \u00f6ppet nasalt. M\u00e5nga har speciellt sv\u00e5rt att uttala l\u00e4ppljuden: \/b\/, \/p\/ och \/m\/. Muskelsvagheten kan p\u00e5verka tillv\u00e4xten i ansiktsskelettet vilket ibland kan orsaka bettavvikelse. H\u00f6g gom och <a img=\\\"oppetbett\\\">\u00f6ppet bett<\/a> \u00e4r d\u00e5 vanligt. K\u00e4kledsbesv\u00e4r och reducerad gapf\u00f6rm\u00e5ga kan f\u00f6rekomma. Salivproduktionen kan vara minskad och sj\u00e4lvreng\u00f6ringsf\u00f6rm\u00e5gan nedsatt vilket \u00f6kar risken f\u00f6r karies (h\u00e5l i t\u00e4nderna). Det finns en \u00f6kad k\u00e4nslighet f\u00f6r m\u00e5nga narkosmedel.",
+    "Rekommendationer": "<UL><LI>De flesta med DM1 beh\u00f6ver f\u00f6rst\u00e4rkt f\u00f6rebyggande tandv\u00e5rd. <\/LI><LI>Tand- och bettutveckling ska f\u00f6ljas. Vid avvikelser ska ortodontist konsulteras p\u00e5 tidigt stadium f\u00f6r planering av eventuell bettkorrigerande behandling. <\/LI><LI>K\u00e4kledsbesv\u00e4r b\u00f6r utredas och vid behov behandlas. <\/LI><LI>Orofacial terapi och munmotorisk tr\u00e4ning och stimulering vid \u00e4tsv\u00e5righeter och dregling. Effekten av tr\u00e4ningen b\u00f6r f\u00f6ljas upp regelbundet. <\/LI><LI>Tal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat. <\/LI><LI>L\u00e4karkontakt rekommenderas  f\u00f6re tandbehandling vid medicinska tillst\u00e5nd, som t.ex. hj\u00e4rtfel. <\/LI><\/UL>",
     "Bild": "DM-flicka.jpg; DM-pojke.jpg",
     "Bildtext": "Karakt\u00e4ristiskt utseende vid dystrofia myotonika (medf\u00f6dd\/barndoms):<br>L\u00e5ngsmalt ansikte. Utsl\u00e4tad mimik. H\u00e4ngande \u00f6gonlock. \u00d6ppen mun. Triangelformad mun. \u00d6ppet bett."
 }, {
@@ -589,7 +601,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Epidermolysis bullosa (EB)",
     "Lang": "eng",
-    "Allm_icd_10": "Q81.9",
+    "Allm_icd_10": "Q81.0",
     "Allm_synonymer": "",
     "Allm_orsak": "There are both autosomal dominant and recessive patterns of inheritance. Spontaneous mutations are relatively common. Junctional EB and the more severe forms of dystrophic EB are usually of recessive aetiology.",
     "Allm_forekomst": "50:1000,000 inhabitants.",
@@ -601,7 +613,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Epidermolysis bullosa (EB)",
     "Lang": "swe",
-    "Allm_icd_10": "Q81.9",
+    "Allm_icd_10": "Q81.0",
     "Allm_synonymer": "",
     "Allm_orsak": "S\u00e5v\u00e4l autosomal dominant som recessiv \u00e4rftlighet f\u00f6rekommer. Nymutationer \u00e4r relativt vanliga. Junktional EB och de sv\u00e5rare formerna av dystrofisk EB ned\u00e4rvs vanligen recessivt.",
     "Allm_forekomst": "50:1000 000 inv\u00e5nare.",
@@ -635,6 +647,30 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
+    "Syndrom":"Fetal Alcohol Syndrome (FAS)",
+    "Lang":"eng",
+    "Allm_icd_10":"Q86.0",
+    "Allm_synonymer":"",
+    "Allm_orsak":"FAS occurs when the fetus has been subjected to alcohol during gestation.",
+    "Allm_forekomst":"200:100,000 live births",
+    "Allm_allm_symtom":"Four criteria have to be met for the diagnosis to be made:\n<ul><li>the mother has abused or been addicted to alcohol during pregnancy<\/li>\n<li>typical facial features<\/li>\n<li>inhibited growth<\/li>\n<li>central nervous system/brain symptoms.<\/li><\/ul>\n\nConcentration difficulties, hyperactivity, sleep disorders and learning difficulties are common. Several organs may be affected, e.g. the heart, skeleton, kidneys and eyes. What damage is done depends on when during pregnancy the fetus was subjected to alcohol.",
+    "Orala_symtom":"Characteristic facial features are associated with the syndrome. Cleft lip and palate, underbite, and dental development disruptions occur. Some children with FAS have problems with their oral motor function, affecting speech and eating development.",
+    "Rekommendationer":"<ul><li>\tEarly contact with dental services for intensified prophylactic care and oral hygiene information is essential in cases of difficulty with managing dental treatment and tooth brushing.<\/li>\n<li>Regular check-ups of dental and jaw development. Orthodontist should be consulted when needed.<\/li>\n<li>Oral motor training and stimulation may be appropriate in cases of eating difficulties, speaking difficulties and reduced saliva control.<\/li>\n<li>Speech, language and communication training is often warranted.<\/li><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+}, {
+    "Syndrom":"Fetalt alkoholsyndrom (FAS)",
+    "Lang":"swe",
+    "Allm_icd_10":"Q86.0",
+    "Allm_synonymer":"",
+    "Allm_orsak":"FAS orsakas av att fostret varit utsatt f\u00f6r alkohol under fostertiden.",
+    "Allm_forekomst":"200:100 000 levande f\u00f6dda.",
+    "Allm_allm_symtom":"Fyra kriterier ska uppfyllas f\u00f6r att diagnos ska st\u00e4llas: \n<UL><li>Mamman har missbrukat eller varit beroende av alkohol under graviditeten<\/li>\n<li>Typiska anletsdrag<\/li>\n<li>Tillv\u00e4xthämning<\/li>\n<li>Symtom fr\u00e5n centrala nervsystemet/hj\u00e4rnan.<\/li><\/UL>\n\nKoncentrationssv\u00e5righeter, hyperaktivitet, s\u00f6mnrubbningar och inl\u00e4rningssv\u00e5righeter \u00e4r vanligt. Ett flertal organ kan vara p\u00e5verkade, exempelvis hj\u00e4rta, skelett, njurar och \u00f6gon. \nVilka skador som uppst\u00e5r beror på n\u00e4r under graviditeten som fostret har exponerats f\u00f6r alkohol.",
+    "Orala_symtom":"Karakt\u00e4ristiska ansiktsdrag \u00e4r associerade med syndromet. L\u00e4pp-k\u00e4k-gomspalt, underbett och tandutvecklingsst\u00f6rningar f\u00f6rekommer. En del barn med FAS har munmotoriska problem som p\u00e5verkar tal- och \u00e4tutveckling.",
+    "Rekommendationer":"<UL><li>Viktigt att personer med FAS tidigt f\u00e5r kontakt med tandv\u00e5rden f\u00f6r f\u00f6rst\u00e4rkt f\u00f6rebyggande v\u00e5rd och munh\u00e4lsoinformation.<\/li>\n<li>Tand- och bettutveckling ska f\u00f6ljas. Vid avvikelser ska ortodontist konsulteras p\u00e5 tidigt stadium f\u00f6r planering av eventuell bettkorrigerande behandling.<\/li>\n<li>\tMunmotorisk tr\u00e4ning och stimulering kan vara aktuellt vid \u00e4tsv\u00e5righeter, talsv\u00e5righeter och nedsatt salivkontroll.<\/li>\n<li>Tal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat.<\/li><\/UL>",
+    "Bild":"",
+    "Bildtext":""
+}, {
     "Syndrom": "Fragil X-syndromet",
     "Lang": "swe",
     "Allm_icd_10": "Q99.2",
@@ -666,7 +702,7 @@ var jsonStr = [{
     "Allm_orsak": "Galactosemia is an umbrella term for a group of hereditary diseases involving deficiency of one of the enzymes that are needed to convert the sugar galactose to glucose in the liver. The most common type is GALT, galactose-1-phosphate uridylyltransferase, often called classic galactosemia. GALT deficiency can lead to damage to the liver, kidneys, central nervous system, the crystalline lens, and the ovaries.",
     "Allm_forekomst": "1:100,000 live births",
     "Allm_allm_symtom": "Children generally fall ill within the first two weeks of life, with unspecific symptoms like muscle weakness, difficulties sucking, and vomiting. Jaundice is a sign that the functions of the liver are affected. Liver enlargement, increased bleeding tendency, low blood sugar, clouding of the crystalline lens, and severe general infection can also emerge.",
-    "Orala_symtom": "There is an increased risk of caries, healing ability can be impaired, and the tendency to bleed somewhat increased. Mild enamel changes, a narrow, high palate, a tendency towards a so-called <a img=\\\"oppetbett\\\">open frontal bite<\/a>, and low muscle tension in the lips have also been observed. Some degree of jaw hypermobility, difficulties chewing, and some effect on speech can be present. Many children suffering from galactosemia have language difficulties, and over half have difficulties with their speech motor skills. Difficulties eating are also common.",
+    "Orala_symtom": "There may be an increased risk of caries, healing ability can be impaired, and the tendency to bleed somewhat increased. Mild enamel changes, a narrow, high palate, a tendency towards a so-called <a img=\\\"oppetbett\\\">open frontal bite<\/a>, and low muscle tension in the lips have also been observed. Some degree of jaw hypermobility, difficulties chewing, and some effect on speech can be present. Many children suffering from galactosemia have language difficulties, and over half have difficulties with their speech motor skills. Difficulties eating are also common.",
     "Rekommendationer": "<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential.<\/LI>\n<LI>An increased tendency to bleed may result in complications when teeth are extracted.<\/LI>\n<LI>Speech and language difficulties should be treated by a speech therapist.<\/LI><\/UL>",
     "Bild": "",
     "Bildtext": ""
@@ -678,7 +714,7 @@ var jsonStr = [{
     "Allm_orsak": "Galaktosemi \u00e4r samlingsnamn f\u00f6r en grupp \u00e4rftliga sjukdomar som medf\u00f6r brist p\u00e5 n\u00e5got av de enzym som beh\u00f6vs f\u00f6r att omvandla sockerarten galaktos till glukos i levern. Den vanligaste formen \u00e4r GALT, galaktos-1-fosfat-uridyltransferas, ofta kallat transferasbrist. Om GALT saknas kan det leda till skador p\u00e5 lever, njurar, centrala nervsystemet, \u00f6gonlinser och \u00e4ggstockar.",
     "Allm_forekomst": "1:100 000 levande f\u00f6dda.",
     "Allm_allm_symtom": "Barnen insjuknar vanligtvis inom de tv\u00e5 f\u00f6rsta levnadsveckorna med ospecifika symtom som muskelslapphet, sv\u00e5righeter att suga och kr\u00e4kningar, gulsot visar att leverns funktion \u00e4r p\u00e5verkad, leverf\u00f6rstoring, bl\u00f6dningsben\u00e4genhet, l\u00e5gt blodsocker, grumling av \u00f6gonlinsen och en allvarlig allm\u00e4ninfektion kan ocks\u00e5 tillkomma.",
-    "Orala_symtom": "Det finns en f\u00f6rh\u00f6jd risk f\u00f6r karies, l\u00e4kningsf\u00f6rm\u00e5gan kan vara s\u00e4mre och bl\u00f6dningsben\u00e4genheten n\u00e5got \u00f6kad, milda emaljf\u00f6r\u00e4ndringar, smalt h\u00f6gt gomvalv, tendens till s\u00e5 kallat  <a img=\\\"frontalt \u00f6ppet bett\\\"><\/a>och l\u00e5g muskelsp\u00e4nning i l\u00e4pparna finns ocks\u00e5 noterat. En viss \u00f6verr\u00f6rlighet i k\u00e4ken, tuggsv\u00e5righeter och viss p\u00e5verkan p\u00e5 talet kan ses. M\u00e5nga barn med galaktosemi har spr\u00e5kliga sv\u00e5righeter och \u00f6ver h\u00e4lften har talmotoriska sv\u00e5righeter. Det \u00e4r ocks\u00e5 vanligt med \u00e4tsv\u00e5righeter.",
+    "Orala_symtom": "Det kan finnas en f\u00f6rh\u00f6jd risk f\u00f6r karies, l\u00e4kningsf\u00f6rm\u00e5gan kan vara s\u00e4mre och bl\u00f6dningsben\u00e4genheten n\u00e5got \u00f6kad, milda emaljf\u00f6r\u00e4ndringar, smalt h\u00f6gt gomvalv, tendens till s\u00e5 kallat  <a img=\\\"frontalt \u00f6ppet bett\\\"><\/a>och l\u00e5g muskelsp\u00e4nning i l\u00e4pparna finns ocks\u00e5 noterat. En viss \u00f6verr\u00f6rlighet i k\u00e4ken, tuggsv\u00e5righeter och viss p\u00e5verkan p\u00e5 talet kan ses. M\u00e5nga barn med galaktosemi har spr\u00e5kliga sv\u00e5righeter och \u00f6ver h\u00e4lften har talmotoriska sv\u00e5righeter. Det \u00e4r ocks\u00e5 vanligt med \u00e4tsv\u00e5righeter.",
     "Rekommendationer": "<UL><LI>Viktigt att personer med Galaktosemi tidigt f\u00e5r kontakt med tandv\u00e5rden f\u00f6r f\u00f6rst\u00e4rkt f\u00f6rebyggande v\u00e5rd och munh\u00e4lsoinformation.<\/LI>\n<LI>\u00d6kad bl\u00f6dningsben\u00e4genhet kan inneb\u00e4ra komplikationer vid tandutdragning.<\/LI>\n<LI>Tal- och spr\u00e5ksv\u00e5righeter behandlas av logoped.<\/LI><\/UL>",
     "Bild": "",
     "Bildtext": ""
@@ -709,7 +745,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Goldenhar syndrome",
     "Lang": "eng",
-    "Allm_icd_10": "Q87.0",
+    "Allm_icd_10": "Q87.0D",
     "Allm_synonymer": "Oculo-auriculo-vertebral spectrum (OAVS), hemifacial microsomia.",
     "Allm_orsak": "Unknown.",
     "Allm_forekomst": "2:100,000 live births.",
@@ -721,7 +757,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Goldenhars syndrom",
     "Lang": "swe",
-    "Allm_icd_10": "Q87.0",
+    "Allm_icd_10": "Q87.0D",
     "Allm_synonymer": "Okuloaurikulovertebralt spektrum (OAVS), Hemifacial mikrosomi.",
     "Allm_orsak": "Ok\u00e4nd.",
     "Allm_forekomst": "2:100 000 levande f\u00f6dda.",
@@ -911,6 +947,18 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
+    "Syndrom":"Kongenital iktyos",
+    "Lang":"swe",
+    "Allm_icd_10":"Q80.9",
+    "Allm_synonymer":"",
+    "Allm_orsak":"En f\u00f6r\u00e4ndring i n\u00e5gon av de gener (hittills 15 k\u00e4nda) som fordras f\u00f6r att \u00f6verhuden skall kunna bilda ett hornlager. Vanligast \u00e4r en autosomalt recessiv ned\u00e4rvning.",
+    "Allm_forekomst":"2-4:100 000 levande f\u00f6dda.",
+    "Allm_allm_symtom":"Iktyos karakt\u00e4riseras av hudsymtom. Huden kan vara fj\u00e4llig, rodnad, torr, f\u00f6rtjockad, kliande och s\u00e5rig till f\u00f6ljd av att hudens skyddande funktion \u00e4r p\u00e5verkad. F\u00f6ljande huvudgrupper har medf\u00f6dda hudsymtom:\n<UL><li>\tlamell\u00e4r iktyos<\/li>\n<li>erytrodermisk iktyos<\/li>\n<li>pleomorf iktyos<\/li>\n<li>epidermolytisk (bull\u00f6s) iktyos.<\/li><\/ul>\n\nGraden av fj\u00e4llning och hudrodnad varierar mellan grupperna.",
+    "Orala_symtom":"Iktyos i sig har ingen specifik p\u00e5verkan p\u00e5 t\u00e4nder, bett eller munmotorik men om huden i ansiktet \u00e4r stram kan det bli sv\u00e5rare att gapa.",
+    "Rekommendationer":"<ul><li>I samband med tandbehandling b\u00f6r eventuella sv\u00e5righeter att gapa beaktas.<\/li><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+}, {
     "Syndrom": "Kongenitala muskeldystrofier",
     "Lang": "swe",
     "Allm_icd_10": "",
@@ -1007,6 +1055,30 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
+    "Syndrom":"Lennox-Gastaut syndrom",
+    "Lang":"swe",
+    "Allm_icd_10":"G40.4",
+    "Allm_synonymer":"",
+    "Allm_orsak":"Lennox-Gastaut \u00e4r en form av sv\u00e5rbehandlad epilepsi som kan bero p\u00e5 genetiska faktorer, missbildningar, infektioner, tum\u00f6r eller skallskada.",
+    "Allm_forekomst":"15:100 000 levande f\u00f6dda.",
+    "Allm_allm_symtom":"Diagnosen st\u00e4lls utifr\u00e5n ett typiskt EEG-m\u00e4nster. Lennox-Gastaut syndrom inneb\u00e4r sv\u00e5r epilepsi med flera olika slags anfall. Anfallens karakt\u00e4r avg\u00f6rs av var i hj\u00e4rnan urladdningen uppst\u00e5r. Utvecklingsst\u00f6rning, beteendeproblem och spr\u00e5kst\u00f6rning \u00e4r vanligt liksom motoriska sv\u00e5righeter.",
+    "Orala_symtom":"Tandskador p\u00e5 grund av fall och bitskador kan f\u00f6rekomma. Viss epilepsimedicin p\u00e5verkar tandk\u00f6ttet som kan bli tjockare och mer l\u00e4ttbl\u00f6dande. Medicinering kan ocks\u00e5 leda till muntorrhet. M\u00e5nga har munmotorisk funktionsneds\u00e4ttning som ofta medf\u00f6r talsv\u00e5righeter, \u00e4tsv\u00e5righeter och salivl\u00e4ckage.",
+    "Rekommendationer":"<ul><li>Viktigt att personer med Lennox-Gastaut tidigt f\u00e5r kontakt med tandv\u00e5rden f\u00f6r f\u00f6rst\u00e4rkt f\u00f6rebyggande v\u00e5rd och munh\u00e4lsoinformation.<\/li>\n<li>Munmotorisk tr\u00e4ning och stimulering kan vara aktuellt vid \u00e4tsv\u00e5righeter, talsv\u00e5righeter och salivl\u00e4ckage.<\/li>\n<li>Tal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat.<\/li>\n<li>\t\u00e4t- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus eller p\u00e5 habiliteringen.<\/li><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+}, {
+  "Syndrom":"Lennox-Gastaut Syndrome",
+  "Lang":"eng",
+  "Allm_icd_10":"G40.4",
+  "Allm_synonymer":"",
+  "Allm_orsak":"Lennox-Gastaut is a difficult-to-treat type of epilepsy that can be due to genetic factors, abnormalities, infections, tumours or skull injuries.",
+  "Allm_forekomst":"15:100,000 live births.",
+  "Allm_allm_symtom":"The diagnosis is made based on a typical EEG pattern. Lennox-Gastaut syndrome involves severe epilepsy with various types of seizures. The seizures’ character is determined by where in the brain the discharge appears. Developmental disorders, behavioural problems and language disorders are common, as are motoric difficulties.",
+  "Orala_symtom":"Dental damage can occur due to falls and biting injuries. Some epilepsy medication can affect gums, making them thicker and more likely to bleed. Medication can also lead to dry mouth. Many sufferers have oral motor dysfunction, often leading to difficulties eating and speaking as well as saliva leakage.",
+  "Rekommendationer":"<ul><li>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential in cases of difficulty with managing dental treatment and tooth brushing.<\/li>\n<li>Oral motor training and stimulation may be appropriate in cases of eating difficulties, speaking difficulties and reduced saliva control.<\/li>\n<li>Speech, language and communication training is often warranted.<\/li>\n<li>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.<\/li><\/ul>",
+  "Bild":"",
+  "Bildtext":""
+}, {
     "Syndrom": "Marfan syndrome",
     "Lang": "eng",
     "Allm_icd_10": "Q87.4",
@@ -1055,17 +1127,65 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
-    "Syndrom": "Myotonic dystrophy type 1 (DM1)",
-    "Lang": "eng",
-    "Allm_icd_10": "G71.0",
-    "Allm_synonymer": "Steinert\u2019s muscular dystrophy.",
-    "Allm_orsak": "DM1 is a neuromuscular disease with autosomal dominant heredity. DM1 is caused by a defect (tricucleotide expansion) on the DMPK gene on chromosome 19 (19q13.3).",
-    "Allm_forekomst": "12:100,000 inhabitants.",
-    "Allm_allm_symtom": "There are four sub-groups of DM1 depending on age at onset: congenital, childhood, classical and mild. In general, the earlier the symptoms occur, the more severe the clinical symptoms of the disease will be. DM1 is a neuromuscular disease with muscle weakness, muscle wasting and myotonia (delayed muscle relaxation) as cardinal symptoms. Multiple systems can be affected such as the heart, smooth muscle, brain, endocrine regulation and skin. Most individuals with congenital and childhood DM1 have learning disability and the frequency of neuropsychiatric disorders is higher than in the general population. The disease has a slowly progressive course.",
-    "Orala_symtom": "Sucking difficulties and breathing problems are common in newborns. Weak orofacial muscles may lead to impaired facial expression, open mouth posture and difficulties with eating, speech and saliva control. The muscular wasting may affect facial growth and cause malocclusion. Some have problems with the temporomandibular joints and impaired jaw opening capacity. There is also an increased risk for caries and gingivitis in individuals with dry mouth and impaired self oral clearance. An increased sensitivity for general anaesthesia drugs has been reported.",
-    "Rekommendationer": "<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential.<\/LI><LI>Regular check-ups of dental and jaw development. Orthodontist should be consulted when needed.<\/LI><LI>In cases of temporomandibular joints disorders, this should be investigated and appropriate treatment thereafter prescribed.<\/LI><LI>Orofacial therapy and oral motor skills training in cases of difficulties with eating, speech or drooling.<\/LI><LI>Speech, language and communication training are often required.<\/LI><LI>When treating medically compromised patients always contact their doctors for medical advice.<\/LI><\/UL>",
-    "Bild": "DM-flicka.jpg; DM-pojke.jpg",
-    "Bildtext": "Characteristic facial features in myotonic dystrophy type 1:\n<br>Impaired facial expression. Longface. Hanging eyelids. Open lips. Triangular shaped mouth. Open bite."
+    "Syndrom":"Mowat-Wilson Syndrome",
+    "Lang":"eng",
+    "Allm_icd_10":"Q43.1",
+    "Allm_synonymer":"",
+    "Allm_orsak":"Mowat-Wilson syndrome normally appears due to a de novo mutation on the ZEB2 gene on chromosome 2q22.3, but can also be due to autosomal dominant inheritance.",
+    "Allm_forekomst":"2:100,000 inhabitants.",
+    "Allm_allm_symtom":"Children with Mowat-Wilson syndrome have late motoric development and developmental disorders. Shortness and a small head circumference are common. Abnormalities occur in the brain and internal organs, as do skeletal deviations. Around half the children have a congenital heart defect. Epilepsy is very common, as are stomach and bowel problems and chronic constipation. Many suffer from eye symptoms, e.g. drooping eyelids, strabismus and cataracts.",
+    "Orala_symtom":"Characteristic facial features are associated with the diagnosis. These become more pronounced with time. Mouth-related symptoms that may occur include widely spaced teeth, cleft palate, daytime bruxism, bad biting habits and reduced pain sensitivity. Oral motor function is often affected, and difficulties sucking and eating, as well as saliva leakage, are common.",
+    "Rekommendationer":"<ul><li>\tEarly contact with dental services for intensified prophylactic care and oral hygiene information is essential in cases of difficulty with managing dental treatment and tooth brushing.<\/li>\n<li>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.<\/li>\n<li>Oral motor training and stimulation may be appropriate in cases of eating difficulties, speaking difficulties and reduced saliva control.<\/li>\n<li>Speech, language and communication training is often warranted.<\/li><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+}, {
+    "Syndrom":"Mowat-Wilsons syndrom",
+    "Lang":"swe",
+    "Allm_icd_10":"Q43.1",
+    "Allm_synonymer":"",
+    "Allm_orsak":"Mowat-Wilsons syndrom uppst\u00e5r vanligtvis genom nymutation p\u00e5 genen ZEB2 som finns p\u00e5 kromosom 2q22.3 men ned\u00e4rvs ocks\u00e5 autosomalt dominant.",
+    "Allm_forekomst":"2:100 000 inv\u00e5nare.",
+    "Allm_allm_symtom":"Barn med Mowat-Wilsons syndrom har f\u00f6rsenad motorisk utveckling och utvecklingsst\u00f6rning. Kortvuxenhet och litet huvudomf\u00e5ng \u00e4r vanligt. Missbildningar i hj\u00e4rna och inre organ f\u00f6rekommer, liksom skelettavvikelser. Medf\u00f6tt hj\u00e4rtfel finns hos ungef\u00e4r h\u00e4lften av barnen. Epilepsi \u00e4r mycket vanligt, liksom mag-tarmproblem och kronisk f\u00f6rstoppning. M\u00e5nga har \u00f6gonsymtom som t.ex. h\u00e4ngande \u00f6gonlock, skelning och gr\u00e5 starr.",
+    "Orala_symtom":"Karakt\u00e4ristiska ansiktsdrag \u00e4r associerade med diagnosen. Dessa blir mer uttalade med \u00e5ren. Munrelaterade symtom som kan f\u00f6rekomma \u00e4r t ex glesst\u00e4llning av t\u00e4nderna, gomspalt, tandgnissling dagtid, bitovanor och nedsatt sm\u00e4rtk\u00e4nslighet. Munmotoriken \u00e4r ofta p\u00e5verkad och sugsv\u00e5righeter, \u00e4tsv\u00e5righeter och salivl\u00e4ckage \u00e4r vanligt.",
+    "Rekommendationer":"<ul><li>Viktigt att personer med denna diagnos tidigt f\u00e5r kontakt med tandv\u00e5rden f\u00f6r f\u00f6rst\u00e4rkt f\u00f6rebyggande v\u00e5rd, munh\u00e4lsoinformation och regelbundet omh\u00e4ndertagande med riktade odontologiska insatser.<\/li>\n<li>Ät- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus eller p\u00e5 habiliteringen.<\/li>\n<li>Munmotorisk tr\u00e4ning och stimulering kan vara aktuellt vid \u00e4tsv\u00e5righeter, talsv\u00e5righeter och vid salivl\u00e4ckage.<\/li>\n<li>Tal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat.<\/li><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+}, {
+    "Syndrom":"Mucopolysaccharidosis (MPS disorders)",
+    "Lang":"eng",
+    "Allm_icd_10":"",
+    "Allm_synonymer":"Hurler (MPS I), Hunter (MPS II), Sanfilippo (MPS III), Morquio (MPS IV), Maroteaux Lamy (MPS VI) and Sly syndrome (MPS VII).",
+    "Allm_orsak":"Mucopolysaccharidosis is an umbrella term for metabolic disorders caused by a lack of various lysosomal enzymes. Lysosomal enzymes are needed to break down certain substances that will otherwise collect in the body and damage various organs.",
+    "Allm_forekomst":"Very rare.",
+    "Allm_allm_symtom":"Complete or partial lack of lysosomal enzymes can affect all cells in the body, and lead to serious and continuous symptoms in the body\u2019s various organs, such as the heart, skeleton, joints, breathing organs and central nervous system.",
+    "Orala_symtom":"Characteristic facial features are associated with certain MPS disorders. Teeth can be disproportionately small and have fragile enamel. Some have a small lower jaw but other types of malocclusion are also common. Large tongue and impaired jaw opening may occur. If the airways are narrow, there is an increased risk for obstructive sleep apnea. In cases of neurological functional impairment, oral motor and speech development can be affected. Difficulties eating and reduced saliva control are common.",
+    "Rekommendationer":"<ul><li>•Early contact with dental services for intensified prophylactic care and oral hygiene information is essential in cases of difficulty with managing dental treatment and tooth brushing.<\/li>\n<li>Regular check-ups of dental and jaw development. Orthodontist should be consulted when needed.<\/li>\n<li>When the jaws do not open properly, the function of the jaw joint should be investigated, and appropriate treatment thereafter prescribed.<\/li>\n<li>When treating medically compromised patients always contact their doctor for medical advice (bleeding problems, heart diseases etc).<\/li>\n<li>Patients with MPS syndromes should always be examined by an experienced anaesthetist before planned surgery.<\/li>\n<li>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.<\/li>\n<li>Oral motor training and stimulation may be appropriate in cases of eating difficulties, speaking difficulties and reduced saliva control.<\/li>\n<li>Speech, language and communication training is often warranted.<\/li><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+}, {
+    "Syndrom":"Mukopolysackaridoser (MPS-sjukdomar)",
+    "Lang":"swe",
+    "Allm_icd_10":"",
+    "Allm_synonymer":"Undergrupper: Hurlers (MPS I), Hunters (MPS II), Sanfilippos (MPS III), Morquios (MPS IV), Marateaux Lamys (MPS VI) och Slys sjukdom (VII).",
+    "Allm_orsak":"Mukopolysackaridoser \u00e4r ett samlingsnamn f\u00f6r \u00e4mnesoms\u00e4ttningssjukdomar som uppst\u00e5r p\u00e5 grund av brist p\u00e5 olika lysosomala enzymer. Lysosomala enzymer beh\u00f6vs f\u00f6r att bryta ned vissa \u00e4mnen som annars ansamlas i kroppen och kan skada olika organ.",
+    "Allm_forekomst":"Mycket s\u00e4llsynta.",
+    "Allm_allm_symtom":"Avsaknad av eller otillr\u00e4ckligt med lysosomala enzymer kan p\u00e5verka alla celler i kroppen och leda till allvarliga och fortskridande symptom fr\u00e5n kroppens olika organ s\u00e5saom hj\u00e4rta, skelett, leder, andningsorgan och central nervsystemet.",
+    "Orala_symtom":"Karakt\u00e4ristiska ansiktsdrag \u00e4r associerade med vissa MPS-sjukdomar. T\u00e4nderna kan vara f\u00f6rh\u00e5llandevis sm\u00e5 och ha en sk\u00f6r emalj. N\u00e5gra har liten underk\u00e4ken men \u00e4ven andra typer av bettavvikelser \u00e4r vanligt. Stor tunga och nedsatt gapf\u00f6rm\u00e5ga kan ocks\u00e5 f\u00f6rekomma. De \u00f6vre andningsv\u00e4garna \u00e4r ibland tr\u00e5nga och det finns d\u00e4rf\u00f6r en \u00f6kad risk f\u00f6r s\u00f6mnapné. Vid neurologisk funktionsneds\u00e4ttning kan munmotorik och talutveckling vara p\u00e5verkade. \u00c5tsv\u00e5righeter och nedsatt salivkontroll \u00e4r vanligt.",
+    "Rekommendationer":"<ul><li>Viktigt att personer med MPS-sjukdomar tidigt f\u00e5r kontakt med tandv\u00e5rden f\u00f6r f\u00f6rst\u00e4rkt f\u00f6rebyggande v\u00e5rd och munh\u00e4lsoinformation.<\/li>\n<li>Tand- och bettutveckling ska f\u00f6ljas. Vid avvikelser ska ortodontist konsulteras p\u00e5 tidigt stadium f\u00f6r planering av eventuell bettkorrigerande behandling.<\/li>\n<li>Vid begr\u00e4nsad gapf\u00f6rm\u00e5ga b\u00f6r k\u00e4kledsfunktionen utredas och d\u00e4refter l\u00e4mplig behandling s\u00e4ttas in.<\/li>\n<li>L\u00e4karkontakt rekommenderas inf\u00f6r tandbehandling av patienter med medicinska tillst\u00e5nd, som t.ex. hj\u00e4rtfel.<\/li>\n<li>Inf\u00f6r en eventuell operation b\u00f6r alltid en narkosspecialist med god k\u00e4nnedom om sjukdomen g\u00f6ra en bed\u00f6mning.<\/li>\n<li>Munmotorisk tr\u00e4ning och stimulering kan vara aktuellt vid \u00e4tsv\u00e5righeter, talsv\u00e5righeter och nedsatt salivkontroll.<\/li>\n<li>Tal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat.<\/li>\n<li>Ät- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus eller p\u00e5 habiliteringen.<\/li><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+}, {
+    "Syndrom":"Myotonic dystrophy type 1 (DM1)",
+    "Lang":"eng",
+    "Allm_icd_10":"G71.1",
+    "Allm_synonymer":"Steinert\u2019s muscular dystrophy.",
+    "Allm_orsak":"DM1 is a neuromuscular disease with autosomal dominant heredity. DM1 is caused by a defect (tricucleotide expansion) on the DMPK gene on chromosome 19 (19q13.3).",
+    "Allm_forekomst":"12:100,000 inhabitants.",
+    "Allm_allm_symtom":"There are four sub-groups of DM1 depending on age at onset: congenital, childhood, classical and mild. In general, the earlier the symptoms occur, the more severe the clinical symptoms of the disease will be. DM1 is a neuromuscular disease with muscle weakness, muscle wasting and myotonia (delayed muscle relaxation) as cardinal symptoms. Multiple systems can be affected such as the heart, smooth muscle, brain, endocrine regulation and skin. Most individuals with congenital and childhood DM1 have learning disability and the frequency of neuropsychiatric disorders is higher than in the general population. The disease has a slowly progressive course.",
+    "Orala_symtom":"Sucking difficulties and breathing problems are common in newborns. Weak orofacial muscles may lead to impaired facial expression, open mouth posture and difficulties with eating, speech and saliva control. The muscular wasting may affect facial growth and cause malocclusion. Some have problems with the temporomandibular joints and impaired jaw opening capacity. There is also an increased risk for caries and gingivitis in individuals with dry mouth and impaired self oral clearance. An increased sensitivity for general anaesthesia drugs has been reported.",
+    "Rekommendationer":"<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential.<\/LI><LI>Regular check-ups of dental and jaw development. Orthodontist should be consulted when needed.<\/LI><LI>In cases of temporomandibular joints disorders, this should be investigated and appropriate treatment thereafter prescribed.<\/LI><LI>Orofacial therapy and oral motor skills training in cases of difficulties with eating, speech or drooling.<\/LI><LI>Speech, language and communication training are often required.<\/LI><LI>When treating medically compromised patients always contact their doctors for medical advice.<\/LI><\/UL>",
+    "Bild":"DM-flicka.jpg; DM-pojke.jpg",
+    "Bildtext":"Characteristic facial features in myotonic dystrophy type 1:\n<br>Impaired facial expression. Longface. Hanging eyelids. Open lips. Triangular shaped mouth. Open bite."
 }, {
     "Syndrom": "M\u00f6bius syndrom",
     "Lang": "swe",
@@ -1141,7 +1261,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Noonan syndrome",
     "Lang": "eng",
-    "Allm_icd_10": "Q87.1",
+    "Allm_icd_10": "Q87.1E",
     "Allm_synonymer": "",
     "Allm_orsak": "Autosomal dominant hereditary trait. The mutation is known in 75 % of cases.",
     "Allm_forekomst": "40-100:100,000 live births.",
@@ -1153,7 +1273,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Noonans syndrom",
     "Lang": "swe",
-    "Allm_icd_10": "Q87.1",
+    "Allm_icd_10": "Q87.1E",
     "Allm_synonymer": "Tidigare beskrivet under namnen \\\"Female pseudo -Turner syndrome\\\" och \\\"Male Turner syndrome\\\".",
     "Allm_orsak": "I h\u00e4lften av fallen g\u00e5r det att p\u00e5visa en skada i ett arvsanlag (genen PTPN11) i den l\u00e5nga armen av kromosom 12. I ytterligare 25 % av fallen k\u00e4nner man till mutationen bakom syndromet (RAF 1, SOS 1, KRAS, SHOC2 och NRAS). Samtliga genmutationer kodar f\u00f6r proteiner i RAS-MAPK signalv\u00e4g. \u00c4rftlighetsg\u00e5ngen \u00e4r autosomalt dominant.",
     "Allm_forekomst": "40-100:100 000 levande f\u00f6dda.",
@@ -1165,7 +1285,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Optic nerve hypoplasia",
     "Lang": "eng",
-    "Allm_icd_10": "Q04.8",
+    "Allm_icd_10": "Q04.4",
     "Allm_synonymer": "Septo-optic dysplasia, ONH syndrome",
     "Allm_orsak": "Unknown, but there are likely several factors. The cause could be an underlying genetic sensitivity in the foetus in combination with early vascular damage during foetal development, which affects the brain\u2019s midline structure and the area of the pituitary gland, hypothalamus, and the optic chiasm.",
     "Allm_forekomst": "7:100,000 children aged 0-19 (according to the Swedish Register of Paediatric Visual Impairments).",
@@ -1199,9 +1319,33 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
+    "Syndrom":"Pitt-Hopkins syndrom (PTHS)",
+    "Lang":"swe",
+    "Allm_icd_10":"Q87.0",
+    "Allm_synonymer":"",
+    "Allm_orsak":"Pitt-Hopkins syndrom uppst\u00e5r genom nymutation p\u00e5 genen TCF4 som finns p\u00e5 kromosom 18q21.1.",
+    "Allm_forekomst":"2-3:100 000 f\u00f6dda.",
+    "Allm_allm_symtom":"Barn med PTHS har f\u00f6rsenad motorisk utveckling, utvecklingsst\u00f6rning och begr\u00e4nsad eller ingen talf\u00f6rm\u00e5ga. Litet huvud \u00e4r vanligt och ungef\u00e4r h\u00e4lften av barnen har epilepsi. M\u00e5nga har \u00f6gonsymtom som exempelvis n\u00e4rsynthet och skelning. Episodisk hyperventilering \u00e4r vanligt med periodvis fl\u00e5sande andning som kan leda till andningsuppeh\u00e5ll. Det \u00e4r vanligt med f\u00f6rstoppning och andra mag-tarmproblem. Vissa beteendest\u00f6rningar kan f\u00f6rekomma och n\u00e5gra f\u00e5r diagnosen atypisk autism.",
+    "Orala_symtom":"Personer med PTHS har gemensamma utseendedrag. I litteraturen har beskrivits symtom som framskjutande underk\u00e4ke, \u00f6verbett, glesst\u00e4llning av t\u00e4nderna, att t\u00e4nderna kan komma senare \u00e4n normalt, tandgnissling dagtid och nedsatt sm\u00e4rtk\u00e4nslighet. Munmotoriken \u00e4r ofta p\u00e5verkad vilket kan orsaka sugsv\u00e5righeter, \u00e4tsv\u00e5righeter och salivl\u00e4ckage.",
+    "Rekommendationer":"<ul><li>Viktigt att personer med denna diagnos tidigt f\u00e5r kontakt med tandv\u00e5rden f\u00f6r f\u00f6rst\u00e4rkt f\u00f6rebyggande v\u00e5rd, munh\u00e4lsoinformation och regelbundet omh\u00e4ndertagande med riktade odontologiska insatser.<\/li>\n<li>Ät- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus eller p\u00e5 habiliteringen.<\/li>\n<li>Munmotorisk tr\u00e4ning och stimulering kan vara aktuellt vid \u00e4tsv\u00e5righeter, talsv\u00e5righeter och nedsatt salivkontroll.<\/li>\n<li>\tTal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat.<\/li><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+}, {
+    "Syndrom":"Pitt-Hopkins Syndrome",
+    "Lang":"eng",
+    "Allm_icd_10":"Q87.0",
+    "Allm_synonymer":"",
+    "Allm_orsak":"Pitt-Hopkins syndrome (PTHS) occurs due to a de novo mutation on gene TCF4, which is on chromosome 18q21.1.",
+    "Allm_forekomst":"2-3:100,000 live births.",
+    "Allm_allm_symtom":"Children with PTHS have delayed motorics development, developmental disorders, and limited or no ability to speak. A small head is common, and around half the children suffer from epilepsy. Many have eye symptoms, such as short-sightedness and strabismus. Episodic hyperventilation is common, with periodic panting which can lead to breathing cessation. Constipation and other stomach and bowel problems are common. Certain behavioural disorders can occur, and some are diagnosed with atypical autism.",
+    "Orala_symtom":"People with PTHS have common features in terms of appearance. In literature, symptoms such as protruding lower jaw, overjet, widely spaced teeth, teeth breaking through later than normal, daytime bruxism and reduced pain sensitivity have been described. Oral motor function is often affected, which can lead to difficulties sucking and eating, as well as saliva leakage.",
+    "Rekommendationer":"<ul><li>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential in cases of difficulty with managing dental treatment and tooth brushing.<\/li>\n<li>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.<\/li>\n<li>Oral motor training and stimulation may be appropriate in cases of eating difficulties, speaking difficulties and reduced saliva control.<\/li>\n<li>\tSpeech, language and communication training is often warranted.<\/li><\/ul>",
+    "Bild":"",
+    "Bildtext":""
+}, {
     "Syndrom": "Prader-Willi syndrome (PWS)",
     "Lang": "eng",
-    "Allm_icd_10": "Q87.1",
+    "Allm_icd_10": "Q87.1F",
     "Allm_synonymer": "",
     "Allm_orsak": "Chromosomal aberration on chromosome 15. The gene or genes that cause the syndrome have not yet been identified.",
     "Allm_forekomst": "6-8:100,000 live births.",
@@ -1211,9 +1355,9 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
-    "Syndrom": "Prader-Willis syndrom",
+    "Syndrom": "Prader-Willis syndrom (PWS)",
     "Lang": "swe",
-    "Allm_icd_10": "Q87.1",
+    "Allm_icd_10": "Q87.1F",
     "Allm_synonymer": "",
     "Allm_orsak": "Syndromet kan bero p\u00e5 flera olika typer av avvikelser p\u00e5 kromosom 15. Den eller de gener som orsakar syndromet \u00e4r \u00e4nnu inte identifierade. Det finns teorier om att n\u00e5gon signalsubstans i centrala nervsystemet saknas eller inte fungerar tillfredsst\u00e4llande.",
     "Allm_forekomst": "6-8:100 000 levande f\u00f6dda.",
@@ -1225,7 +1369,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Primary Ciliary Dyskinesia",
     "Lang": "eng",
-    "Allm_icd_10": "Q89.3",
+    "Allm_icd_10": "J98.8",
     "Allm_synonymer": "Immotile Cilia Syndrome, Kartageners Syndrome.",
     "Allm_orsak": "The disorder is caused by mutations identified in genes on chromosomes 5, 9 and 17. The mutations cause a congenital defect in the function of the celia. The disorder is inherited autosomal recessively. New mutations may possibly have another inheritance pattern.",
     "Allm_forekomst": "4-6:100,000 live births.",
@@ -1249,7 +1393,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Prim\u00e4r cili\u00e4r dyskinesi",
     "Lang": "swe",
-    "Allm_icd_10": "Q89.3",
+    "Allm_icd_10": "J98.8",
     "Allm_synonymer": "Immotile-cilia syndrom, Kartageners syndrom, Medf\u00f6dd cilieor\u00f6rlighet.",
     "Allm_orsak": "Sjukdomen orsakas av f\u00f6r\u00e4ndringar (mutation) i arvsanlagen. Inblandade gener har identifierats p\u00e5 kromosomerna 5, 9 och 17. Mutationen orsakar en medf\u00f6dd st\u00f6rning i flimmerh\u00e5rens funktion. Sjukdomen \u00e4rvs i huvudsak autosomalt recessivt. Nya mutationer kan eventuellt ha en annan \u00e4rftlighetsg\u00e5ng.",
     "Allm_forekomst": "4-6:100 000 levande f\u00f6dda.",
@@ -1297,7 +1441,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Rubinstein-Taybi syndrome",
     "Lang": "eng",
-    "Allm_icd_10": "Q87.2",
+    "Allm_icd_10": "Q87.2D",
     "Allm_synonymer": "",
     "Allm_orsak": "Usually damage to the short arm of chromosome 16 (16p 13.3) but damage on chromosome 22 (22q13) has also been detected. The genes affected (CBP and EP300) are crucial for the development of different organ systems during fetal life. Diagnosis made on the basis of symptoms, and in about one half of individuals this can be confirmed with DNA analysis.",
     "Allm_forekomst": "1-2:100,000 live births.",
@@ -1309,7 +1453,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Rubinstein-Taybis syndrom",
     "Lang": "swe",
-    "Allm_icd_10": "Q87.2",
+    "Allm_icd_10": "Q87.2D",
     "Allm_synonymer": "",
     "Allm_orsak": "Vanligtvis skada p\u00e5 kromosom 16 (16p13.3) men skada p\u00e5 kromosom 22 (22q13) har ocks\u00e5 p\u00e5visats. De gener som kan vara p\u00e5verkade (CBP- och EP300-generna) har betydelse f\u00f6r olika organs utveckling under fosterstadiet. Diagnos st\u00e4lls p\u00e5 symtombild och kan hos h\u00e4lften av barnen bekr\u00e4ftas med DNA-analys.",
     "Allm_forekomst": "1-2:100 000 levande f\u00f6dda.",
@@ -1345,7 +1489,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Sanfilippo syndrom",
     "Lang": "eng",
-    "Allm_icd_10": "E76.2",
+    "Allm_icd_10": "E76.2E",
     "Allm_synonymer": "MPS III (Mukopolysackaridos type III).",
     "Allm_orsak": "The syndrome is caused by a mutation in the genes coding for four different enzymes that are involved in the breakdown of the mucopolysaccharide heparan sulfatase. Normally the breakdown occurs in the cell lysosome; however, in Sanfilippo syndrome, the mucopolysaccharides accumulate in the cells. This results in progressive damage to different bodily tissues and organs. Sanfilippo syndrome is inherited automsal recessively.",
     "Allm_forekomst": "1-2:1000,000 inhabitants.",
@@ -1357,7 +1501,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Sanfilippos sjukdom",
     "Lang": "swe",
-    "Allm_icd_10": "E76.2",
+    "Allm_icd_10": "E76.2E",
     "Allm_synonymer": "MPS III (Mukopolysackaridos typ III).",
     "Allm_orsak": "Orsaken \u00e4r en mutation (skada) av de gener som kodar f\u00f6r n\u00e5got av fyra olika enzymer som deltar i nedbrytningen av heparansulfat som \u00e4r en mukopolysackarid. Normalt sker nedbrytningen i cellernas lysosomer. Vid Sanfilippos sjukdom ansamlas mukopolysackarider ist\u00e4llet i cellerna. Detta ger upphov till fortskridande skada i olika v\u00e4vnader och organ i kroppen. Sanfilippos sjukdom \u00e4rvs autosomalt recessivt.",
     "Allm_forekomst": "1-2:1000 000 inv\u00e5nare.",
@@ -1513,7 +1657,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Sturge Weber syndrom",
     "Lang": "swe",
-    "Allm_icd_10": "Q85.8",
+    "Allm_icd_10": "Q85.8B",
     "Allm_synonymer": "Encephalotrigeminal Angiomatosis.",
     "Allm_orsak": "Ok\u00e4nd.",
     "Allm_forekomst": "2-3:100 000 levande f\u00f6dda.",
@@ -1525,7 +1669,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Sturge Weber syndrome",
     "Lang": "eng",
-    "Allm_icd_10": "Q85.8",
+    "Allm_icd_10": "Q85.8B",
     "Allm_synonymer": "Encephalotrigeminal Angiomatosis",
     "Allm_orsak": "Unknown",
     "Allm_forekomst": "2-3:100,000 live births.",
@@ -1583,53 +1727,53 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
-    "Syndrom": "Tuberous sclerosis (TSC)",
-    "Lang": "eng",
-    "Allm_icd_10": "Q85.1",
-    "Allm_synonymer": "",
-    "Allm_orsak": "TSC is caused by a genetic mutation, which, in turn, disrupts normal cellular development in the bodily organs. Although the genetic mutation is congenital, it often occurs as a spontaneous mutation. The pattern of heredity is an autosomal dominant genetic trait. At least two different genes, one on chromosome 9 and one on chromosome 16, have been found to give rise to this mutation.",
-    "Allm_forekomst": "1:100,000 live births.",
-    "Allm_allm_symtom": "The anomalies may be found in one or more organs, and may be minor or major. Organs that may be affected include the brain, kidneys, heart, eyes, lungs, nails and skin. The most common symptoms are skin abnormalities, and the most discernible functional disabilities include epilepsy, mental retardation and autism or autistic traits. Hyperactivity is a serious problem in nearly half of all individuals with severe tubular sclerosis. Impulse control disabilities and temper tantrums are also very frequent symptoms.",
-    "Orala_symtom": "Enamel aberrations in the form of pitting are frequent. Gum fibromas may occur, particularly in the region of the front teeth. Speech- and language development is often delayed, and some of these children never acquire speech. Eating difficulties and drooling are common.",
-    "Rekommendationer": "<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential.<\/LI><LI>When enamel pitting occurs, this seldom requires treatment.<\/LI><LI>Orofacial therapy and oral motor skills training and stimulation in cases of difficulties with eating, speech or drooling may be relevant.<\/LI><LI>Speech, language and communication training are often required.<\/LI><LI>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.<\/LI><\/UL>",
-    "Bild": "",
-    "Bildtext": ""
+    "Syndrom":"Tuberous sclerosis (TSC)",
+    "Lang":"eng",
+    "Allm_icd_10":"Q85.1",
+    "Allm_synonymer":"",
+    "Allm_orsak":"TSC is caused by a genetic mutation, which, in turn, disrupts normal cellular development in the bodily organs. Although the genetic mutation is congenital, it often occurs as a spontaneous mutation. The pattern of heredity is an autosomal dominant genetic trait. At least two different genes, one on chromosome 9 and one on chromosome 16, have been found to give rise to this mutation.",
+    "Allm_forekomst":"1:10,000 live births.",
+    "Allm_allm_symtom":"The anomalies may be found in one or more organs, and may be minor or major. Organs that may be affected include the brain, kidneys, heart, eyes, lungs, nails and skin. The most common symptoms are skin abnormalities, and the most discernible functional disabilities include epilepsy, mental retardation and autism or autistic traits. Hyperactivity is a serious problem in nearly half of all individuals with severe tubular sclerosis. Impulse control disabilities and temper tantrums are also very frequent symptoms.",
+    "Orala_symtom":"Enamel aberrations in the form of pitting are frequent. Gum fibromas may occur, particularly in the region of the front teeth. There is a risk of bone cyst formation in the jaw. Speech- and language development is often delayed, and some of these children never acquire speech. Eating difficulties and drooling are common.",
+    "Rekommendationer":"<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential.</LI><LI>When enamel pitting occurs, this seldom requires treatment but may increase the risk for caries.</LI>\n<LI>Because of the risk for bone cyst formation in the jaw, radiographic evaluation is recommended by the age of 6 to 7 years or earlier if asymmetry, asymptomatic swelling or delayed or abnormal tooth eruption sequence is evident.</LI>\n<LI>Orofacial therapy and oral motor skills training and stimulation in cases of difficulties with eating, speech or saliva leakage may be relevant.</LI><LI>Speech, language and communication training are often required.</LI><LI>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.</LI></UL>",
+    "Bild":"",
+    "Bildtext":""
 }, {
-    "Syndrom": "Tuber\u00f6s skleros (TSC)",
-    "Lang": "swe",
-    "Allm_icd_10": "Q85.1",
-    "Allm_synonymer": "",
-    "Allm_orsak": "TSC beror p\u00e5 avvikelser i arvsmassan som i sin tur leder till felaktig cellutveckling i kroppens organ. F\u00f6r\u00e4ndringen i arvsmassan \u00e4r \u00e4rftlig men uppst\u00e5r ofta genom nymutation. Ned\u00e4rvningsm\u00f6nstret \u00e4r autosomalt dominant. Det finns minst tv\u00e5 olika gener som ger upphov till sjukdomen, en p\u00e5 kromosom 9 och en p\u00e5 kromosom 16.",
-    "Allm_forekomst": "1:100 000 levande f\u00f6dda.",
-    "Allm_allm_symtom": "F\u00f6r\u00e4ndringar kan finnas i ett enda eller flera organ och de kan vara sm\u00e5 eller stora. Exempel p\u00e5 organ som kan vara p\u00e5verkade \u00e4r hj\u00e4rnan, njurarna, hj\u00e4rtat, \u00f6gonen, lungorna, naglarna och huden. Hudf\u00f6r\u00e4ndringar \u00e4r vanligast medan de mest p\u00e5tagliga funktionshindren \u00e4r epilepsi, utvecklingsst\u00f6rning och autism eller autistiska drag. Hyperaktivitet \u00e4r ett stort problem hos n\u00e4stan h\u00e4lften av alla med sv\u00e5r TSC. Bristande impulskontroll med raseriutbrott \u00e4r ocks\u00e5 ett mycket vanligt symtom.",
-    "Orala_symtom": "Emaljf\u00f6r\u00e4ndringar i form av sm\u00e5 gropar, s\u00e5 kallade pits, f\u00f6rekommer. Fibrom kan ses i tandk\u00f6ttet, s\u00e4rskilt i framtandsomr\u00e5det. Tal- och spr\u00e5kutvecklingen \u00e4r ofta f\u00f6rsenad, m\u00e5nga talar inte alls. \u00c4tsv\u00e5righeter och dregling \u00e4r vanligt.",
-    "Rekommendationer": "<UL><LI>Det \u00e4r viktigt att personer med TSC tidigt f\u00e5r kontakt med tandv\u00e5rden f\u00f6r f\u00f6rst\u00e4rkt f\u00f6rebyggande v\u00e5rd. <\/LI><LI>Om pits finns i emaljen brukar dessa s\u00e4llan beh\u00f6va \u00e5tg\u00e4rdas. <\/LI><LI>Munmotorisk tr\u00e4ning och stimulering kan vara aktuellt vid \u00e4tsv\u00e5righeter, talsv\u00e5righeter och dregling. <\/LI><LI>Tal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat. <\/LI><LI>\u00c4t- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus eller habilitering. <\/LI><\/UL>",
-    "Bild": "",
-    "Bildtext": ""
+    "Syndrom":"Tuber\u00f6s skleros (TSC)",
+    "Lang":"swe",
+    "Allm_icd_10":"Q85.1",
+    "Allm_synonymer":"",
+    "Allm_orsak":"TSC beror p\u00e5 avvikelser i arvsmassan som i sin tur leder till felaktig cellutveckling i kroppens organ. F\u00f6r\u00e4ndringen i arvsmassan \u00e4r \u00e4rftlig men uppst\u00e5r ofta genom nymutation. Ned\u00e4rvningsm\u00f6nstret \u00e4r autosomalt dominant. Det finns minst tv\u00e5 olika gener som ger upphov till sjukdomen, en p\u00e5 kromosom 9 och en p\u00e5 kromosom 16.",
+    "Allm_forekomst":"1:10 000 levande f\u00f6dda.",
+    "Allm_allm_symtom":"F\u00f6r\u00e4ndringar kan finnas i ett enda eller flera organ och de kan vara sm\u00e5 eller stora. Exempel p\u00e5 organ som kan vara p\u00e5verkade \u00e4r hj\u00e4rnan, njurarna, hj\u00e4rtat, \u00f6gonen, lungorna, naglarna och huden. Hudf\u00f6r\u00e4ndringar \u00e4r vanligast medan de mest p\u00e5tagliga funktionshindren \u00e4r epilepsi, utvecklingsst\u00f6rning och autism eller autistiska drag. Hyperaktivitet \u00e4r ett stort problem hos n\u00e4stan h\u00e4lften av alla med sv\u00e5r TSC. Bristande impulskontroll med raseriutbrott \u00e4r ocks\u00e5 ett mycket vanligt symtom.",
+    "Orala_symtom":"Emaljf\u00f6r\u00e4ndringar i form av sm\u00e5 gropar, s\u00e5 kallade pits, \u00e4r vanligt. Fibrom kan ses i tandk\u00f6ttet, s\u00e4rskilt i framtandsomr\u00e5det. Bencystor i k\u00e4kbenet kan f\u00f6rekomma. Tal- och spr\u00e5kutvecklingen \u00e4r ofta f\u00f6rsenad, m\u00e5nga talar inte alls. Ätsv\u00e5righeter och salivl\u00e4ckage \u00e4r vanligt.",
+    "Rekommendationer":"<UL><LI>Det \u00e4r viktigt att personer med TSC tidigt f\u00e5r kontakt med tandv\u00e5rden f\u00f6r f\u00f6rst\u00e4rkt f\u00f6rebyggande v\u00e5rd. </LI><LI>Pits i emaljen beh\u00f6ver s\u00e4llan \u00e5tg\u00e4rdas. </LI>\n<LI>Fibrom som ger symtom kan beh\u00f6va tas bort. </LI>\n<LI>R\u00f6ntgen av k\u00e4karna rekommenderas n\u00e4r barnet \u00e4r sex-sju \u00e5r f\u00f6r bed\u00f6mning av eventuella bencystor och avvikande tandframbrott.</LI>\n<LI>Munmotorisk tr\u00e4ning och stimulering kan vara aktuellt vid \u00e4tsv\u00e5righeter, talsv\u00e5righeter och salivl\u00e4ckage. </LI><LI>Tal-, spr\u00e5k- och kommunikationstr\u00e4ning \u00e4r ofta motiverat. </LI><LI>Ät- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus eller habilitering. </LI></UL>",
+    "Bild":"",
+    "Bildtext":""
 }, {
-    "Syndrom": "Turner syndrome",
-    "Lang": "eng",
-    "Allm_icd_10": "Q96.9",
-    "Allm_synonymer": "",
-    "Allm_orsak": "Girls with Turner syndrome are either missing one X chromosome (45,X) or part of it. Sometimes parts of the body have normal cells that contain two X chromosomes, while other cells are missing one X chromosome (mosaicism). There are also variants in which girls may have three X chromosomes, two of which are normal length and the third shor ter. Why this chromosomal aberration occurs is not known today. Turner syndrome is not hereditary.",
-    "Allm_forekomst": "1:2,000 girls born.",
-    "Allm_allm_symtom": "Short stature. Many of these girls have loss of ovarian function and they often do not enter puberty. Cardiac defects are common. Often there are frequent ear infections. Learning disability and behavioral problems can sometimes occur.",
-    "Orala_symtom": "Characteristic facial features are associated with the diagnosis. In contrast to skeletal development, which tends to be delayed by more than two years, dental development tends to be early, and teeth may erupt earlier than normal. Teeth may have shape aberrations. The most common anomalies relate to the proportions between the root and the crown of the teeth, with relatively short roots on the incisors, canines and premolars. Teeth may be small, with thin enamel. They may also be widely-spaced. There are repor ts of arched palate and a small lower jaw. Various malocclusions may occur, with a particular frequency of post normal bite and cross bite. Malocclusions appear early. Feeding problems are common during the first years of life. Some girls have difficulties with speech and language acquvisition. Women who has not been treated with growth hormone can have a high frequent voice.",
-    "Rekommendationer": "<UL><LI>Regular check-ups of dental and jaw development. Orthodontist should be consulted when needed.<\/LI><LI>A specialist in pediatric dentistry or orthodontia may be a useful resource in this respect, and should also be consulted if treatment with growth hormone is being considered.<\/LI><LI>There are special intervention programs for children with Turner syndrome, with a focus on odontology. Tooth age determination is recommended as part of the diagnostic workup. Anomalies beyond 2SD indicate that the child should be referred to a physician for fur ther examination.<\/LI><LI>Children with eating disorders often required extra dental care, including assistance with oral hygiene and fluoride treatments.<\/LI><LI>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.<\/LI><LI>Speech and language difficulties should be diagnosed and treated by a speech therapist.<\/LI><LI>When treating medically compromised patients always contact their doctors for medical advice.<\/LI><\/UL>",
-    "Bild": "",
-    "Bildtext": ""
+    "Syndrom":"Turner syndrome",
+    "Lang":"eng",
+    "Allm_icd_10":"Q96.9",
+    "Allm_synonymer":"",
+    "Allm_orsak":"Girls with Turner syndrome are either missing one X chromosome (45,X) or part of it. Sometimes parts of the body have normal cells that contain two X chromosomes, while other cells are missing one X chromosome (mosaicism). Why this chromosomal aberration occurs is not known today. Turner syndrome is not hereditary.",
+    "Allm_forekomst":"1:2,000 girls born.",
+    "Allm_allm_symtom":"Short stature. Many of these girls have loss of ovarian function and they often do not enter puberty. Cardiac defects are common. Often there are frequent ear infections. Learning disability and behavioral problems can sometimes occur.",
+    "Orala_symtom":"Characteristic facial features are associated with the diagnosis. In contrast to skeletal development, which tends to be delayed by more than two years, dental development tends to be early, and teeth may erupt earlier than normal. Teeth may have shape aberrations. Common anomalies relate to the proportions between the root and the crown of the teeth, with relatively short roots on the incisors, canines and premolars. Teeth may be small, with thin enamel. They may also be widely-spaced. There are reports of arched palate and a small lower jaw. Various malocclusions may occur, with a particular frequency of post normal bite and cross bite. Malocclusions appear early. Feeding problems are common during the first years of life. Some girls have difficulties with speech and language acquvisition. Women who has not been treated with growth hormone can have a high frequent voice.",
+    "Rekommendationer":"<UL><LI>Regular check-ups of dental and jaw development. Orthodontist should be consulted when needed.</LI><LI>A specialist in pediatric dentistry or orthodontia may be a useful resource in this respect, and should also be consulted if treatment with growth hormone is being considered.</LI>\n<LI>Children with eating disorders often required extra dental care, including assistance with oral hygiene and fluoride treatments.</LI><LI>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.</LI><LI>Speech and language difficulties should be diagnosed and treated by a speech therapist.</LI><LI>When treating medically compromised patients always contact their doctors for medical advice.</LI></UL>",
+    "Bild":"",
+    "Bildtext":""
 }, {
-    "Syndrom": "Turners syndrom",
-    "Lang": "swe",
-    "Allm_icd_10": "Q96.9",
-    "Allm_synonymer": "",
-    "Allm_orsak": "Flickor med Turners syndrom saknar hela eller delar av den ena X-kromosomen (k\u00f6nskromosomen). Ibland har vissa celler i kroppen normala celler som inneh\u00e5ller tv\u00e5 Xkromosomer medan andra celler saknar en X-kromosom (mosaik). Det finns ocks\u00e5 varianter d\u00e4r flickor kan ha tre X-kromosomer, d\u00e4r tv\u00e5 kromosomer har normal l\u00e4ngd och den tredje \u00e4r kortare. Man vet inte varf\u00f6r kromosomf\u00f6r\u00e4ndringarna uppst\u00e5r. Turners syndrom \u00e4r inte \u00e4rftligt.",
-    "Allm_forekomst": "1:2000 f\u00f6dda flickor.",
-    "Allm_allm_symtom": "Kortvuxenhet. Tillbakabildning av \u00e4ggstockar f\u00f6rekommer och ofta utebliven pubertet. Hj\u00e4rtfel \u00e4r vanligt. M\u00e5nga har problem med t\u00e4ta \u00f6roninflammationer. Inl\u00e4rningssv\u00e5righeter och beteendeproblematik kan f\u00f6rekomma.",
-    "Orala_symtom": "Karakt\u00e4ristiska utseendedrag kan ing\u00e5 i symtombilden. Till skillnad fr\u00e5n skelettmognaden, som i regel \u00e4r f\u00f6rsenad mer \u00e4n tv\u00e5 \u00e5r, \u00e4r den dentala utvecklingen tidig och tandframbrott kan vara tidigare \u00e4n genomsnittligt. T\u00e4nderna kan ha avvikande form. Vanligast \u00e4r avvikelser i proportionerna mellan krona och rot med f\u00f6rh\u00e5llandevis korta r\u00f6tter p\u00e5 fram- och h\u00f6rnt\u00e4nder samt kindt\u00e4nder. T\u00e4nderna kan vara sm\u00e5 med minskad emaljtjocklek och glesst\u00e4llningar f\u00f6rekommer. Det finns rapporter om h\u00f6gt gomvalv och liten underk\u00e4ke. Olika bettavvikelser kan f\u00f6rekomma, men <a img=\\\"overbett\\\">\u00f6verbett<\/a> och korsbett \u00e4r mer frekvent. Avvikelserna i bettutveckling upptr\u00e4der tidigt. Matningsproblem \u00e4r vanligt under de f\u00f6rsta levnads\u00e5ren. N\u00e5gra har tal- och spr\u00e5ksv\u00e5righeter. Kvinnor som inte behandlats med tillv\u00e4xthormon kan ha ett ljust r\u00f6stl\u00e4ge.",
-    "Rekommendationer": "<UL><LI>Tand- och bettutveckling ska f\u00f6ljas. Vid avvikelser ska ortodontist konsulteras p\u00e5 tidigt stadium f\u00f6r planering av eventuell bettkorrigerande behandling. <\/LI><LI>Pedodontist och\/eller ortodontist skall konsulteras inf\u00f6r eventuell behandling med tillv\u00e4xthormon. <\/LI><LI>Enligt det svenska v\u00e5rdprogrammet f\u00f6r Turners syndrom skall tand\u00e5ldersbest\u00e4mning g\u00f6ras vid misstanke om Turners syndrom. Avvikelse \u00f6ver 2SD kan f\u00f6ranleda remiss till l\u00e4kare f\u00f6r vidare utredning. <\/LI><LI>Barn med \u00e4tsv\u00e5righeter beh\u00f6ver ofta ett f\u00f6rst\u00e4rkt omh\u00e4ndertagande i tandv\u00e5rden, t ex hj\u00e4lp med munhygien och fluorbehandling. <\/LI><LI>\u00c4t- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus. <\/LI><LI>Utredning och behandling av tal-, spr\u00e5k- och kommunikation \u00e4r ibland motiverat <\/LI><LI>L\u00e4karkontakt rekommenderas f\u00f6re tandbehandling vid medicinska tillst\u00e5nd, som t.ex. hj\u00e4rtfel.<\/LI><\/UL>",
-    "Bild": "",
-    "Bildtext": ""
+    "Syndrom":"Turners syndrom",
+    "Lang":"swe",
+    "Allm_icd_10":"Q96.9",
+    "Allm_synonymer":"",
+    "Allm_orsak":"Flickor med Turners syndrom saknar hela eller delar av den ena X-kromosomen (k\u00f6nskromosomen). Ibland har vissa celler i kroppen normala celler som inneh\u00e5ller tv\u00e5 Xkromosomer medan andra celler saknar en X-kromosom (mosaik). Man vet inte varf\u00f6r kromosomf\u00f6r\u00e4ndringarna uppst\u00e5r. Turners syndrom \u00e4r inte \u00e4rftligt.",
+    "Allm_forekomst":"1:2000 f\u00f6dda flickor.",
+    "Allm_allm_symtom":"Kortvuxenhet. Tillbakabildning av \u00e4ggstockar f\u00f6rekommer och ofta utebliven pubertet. Hj\u00e4rtfel \u00e4r vanligt. M\u00e5nga har problem med t\u00e4ta \u00f6roninflammationer. Inl\u00e4rningssv\u00e5righeter och beteendeproblematik kan f\u00f6rekomma.",
+    "Orala_symtom":"Karakt\u00e4ristiska utseendedrag kan ing\u00e5 i symtombilden. Till skillnad fr\u00e5n skelettmognaden, som i regel \u00e4r f\u00f6rsenad mer \u00e4n tv\u00e5 \u00e5r, \u00e4r den dentala utvecklingen tidig och tandframbrott kan vara tidigare \u00e4n genomsnittligt. T\u00e4nderna kan ha avvikande form. Vanligt f\u00f6rekommande \u00e4r avvikelser i proportionerna mellan krona och rot med f\u00f6rh\u00e5llandevis korta r\u00f6tter p\u00e5 fram- och h\u00f6rnt\u00e4nder samt kindt\u00e4nder. T\u00e4nderna kan vara sm\u00e5 med minskad emaljtjocklek och glesst\u00e4llningar f\u00f6rekommer. Det finns rapporter om smalt gomvalv och liten underk\u00e4ke. Olika bettavvikelser kan f\u00f6rekomma, men <a img=\"overbett\">\u00f6verbett</a> och korsbett \u00e4r mer frekvent. Avvikelserna i bettutveckling upptr\u00e4der tidigt. Matningsproblem \u00e4r vanligt under de f\u00f6rsta levnads\u00e5ren. N\u00e5gra har tal- och spr\u00e5ksv\u00e5righeter. Kvinnor som inte behandlats med tillv\u00e4xthormon kan ha ett ljust r\u00f6stl\u00e4ge.",
+    "Rekommendationer":"<UL><LI>Tand- och bettutveckling ska f\u00f6ljas. Vid avvikelser ska ortodontist konsulteras p\u00e5 tidigt stadium f\u00f6r planering av eventuell bettkorrigerande behandling. </LI><LI>Pedodontist och/eller ortodontist skall konsulteras inf\u00f6r eventuell behandling med tillv\u00e4xthormon. </LI>\n<LI>Barn med \u00e4tsv\u00e5righeter beh\u00f6ver ofta ett f\u00f6rst\u00e4rkt omh\u00e4ndertagande i tandv\u00e5rden, t ex hj\u00e4lp med munhygien och fluorbehandling. </LI><LI>Ät- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus. </LI><LI>Utredning och behandling av tal-, spr\u00e5k- och kommunikation \u00e4r ibland motiverat </LI><LI>L\u00e4karkontakt rekommenderas f\u00f6re tandbehandling vid medicinska tillst\u00e5nd, som t.ex. hj\u00e4rtfel.</LI></UL>",
+    "Bild":"",
+    "Bildtext":""
 }, {
     "Syndrom": "VACTERL",
     "Lang": "eng",
@@ -1657,7 +1801,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Williams syndrom",
     "Lang": "swe",
-    "Allm_icd_10": "E83.5",
+    "Allm_icd_10": "Q87.8",
     "Allm_synonymer": "William-Beuren syndrom.",
     "Allm_orsak": "Avsaknad av kromosomsegment (deletion) p\u00e5 kromosom 7. Deletionen uppst\u00e5r oftast som nymutation (nyuppkommen f\u00f6r\u00e4ndring i arvsmassan).",
     "Allm_forekomst": "5-10:100 000 levande f\u00f6dda.",
@@ -1669,7 +1813,7 @@ var jsonStr = [{
 }, {
     "Syndrom": "Williams syndrome",
     "Lang": "eng",
-    "Allm_icd_10": "E83.5",
+    "Allm_icd_10": "Q87.8",
     "Allm_synonymer": "William-Beuren syndrome",
     "Allm_orsak": "Deletion on chromosome 7, most often caused by a new mutation.",
     "Allm_forekomst": "5-10:100,000 live births.",

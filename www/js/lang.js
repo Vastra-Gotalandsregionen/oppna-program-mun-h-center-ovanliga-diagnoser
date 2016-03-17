@@ -70,18 +70,24 @@ function setLanguage(lang)
         $('.lang_tandborstning_text37').html('');
 
         $('.lang_muntorrhet_text1').html('Munv&aring;rd f&oumlr barn - Tips vid muntorrhet');
-        $('.lang_muntorrhet_text2').html('Torra l&auml;ppar och muntorrhet kan orsakas av munandning och vissa mediciner.');
+        $('.lang_muntorrhet_text2').html('Torra l&auml;ppar och muntorrhet kan orsakas av munandning och vissa mediciner. Muntorrhet inneb&auml;r f&ouml;rh&ouml;jd kariesrisk och p&aring;verkan p&aring; munslemhinnan.');
         $('.lang_muntorrhet_text3').html('Sm&ouml;rj torra l&auml;ppar och munslemhinna med t ex en muntork doppad i rapsolja. B&ouml;rja alltid med att sm&ouml;rja l&auml;ppar och forts&auml;tt in i p&aring; kindens insida, tunga och gom.');
         $('.lang_muntorrhet_text4').html('Instruktionsfilm som visar hur man sm&ouml;rjer munslemhinnor och l&auml;ppar.');
-        $('.lang_muntorrhet_text5').html('VAL AV PRODUKTER F&OumlR MUNTORRHET');
+        $('.lang_muntorrhet_text5').html('F&Ouml;RSLAG P&Aring; PRODUKTER VID MUNTORRHET');
         $('.lang_muntorrhet_text6').html('En muntork kan anv&auml;ndas f&ouml;r att sm&ouml;rja eller torka ur munnen. Finns i tv&aring; storlekar. F&ouml;r eng&aring;ngsbruk.');
-        $('.lang_muntorrhet_text7').html(' SM&OumlRJANDE OCH SALIVSTIMULERANDE PRODUKTER');
+        $('.lang_muntorrhet_text7').html('SM&OumlRJANDE OCH SALIVSTIMULERANDE PRODUKTER');
         $('.lang_muntorrhet_text8').html('F&ouml;r barn som &auml;r torra i munnen kan det k&auml;nnas sk&ouml;nt med n&aring;got sm&ouml;rjande medel som t ex rapsolja. Ta en teskeds m&auml;ngd och sm&ouml;rj runt inne i munnen med tungan, alternativt med en muntork som man doppat i oljan.');
         $('.lang_muntorrhet_text9').html('Olika geler mot muntorrhet finns att k&ouml;pa. De kan appliceras med t ex en muntork.');
         $('.lang_muntorrhet_text10').html('Zendium Saliva fuktgel baserad p&aring; colostrum (r&aring;mj&ouml;lk). Gelen &auml;r mild i smaken och inneh&aring;ller &auml;ven fluor.');
         $('.lang_muntorrhet_text11').html('Proxident munspray och munfuktgel finns med b&aring;de salivstimulerande och sm&ouml;rjande funktion.');
         $('.lang_muntorrhet_text12').html('Ytterligare information om munv&aring;rdsprodukter och hj&auml;lpmedel finns p&aring; f&ouml;ljande hemsidor: <br> <a href="http://www.mun-h-center.se">www.mun-h-center.se</a> <br>    <a href="http://www.apotea.se" target="_blank">www.apotea.se</a> <br> <a href="http://www.proxident.se">www.proxident.se</a>');
-
+        $('.lang_muntorrhet_text13').html('Mjukg&ouml;rande l&auml;ppbalsam');
+        $('.lang_muntorrhet_text14').html('FLUORPREPARAT (p&aring; tandv&aring;rdens rekommendation)');
+        $('.lang_muntorrhet_text15').html('Om fluor och dess verkan');
+        $('.lang_muntorrhet_text16').html('Proxident tandkr&auml;m f&ouml;r torr mun. Tandkr&auml;m utan smak. Anv&auml;nds fr&aring;n 6 &aring;r.');
+        $('.lang_muntorrhet_text17').html('Flux dry mouth rinse. Fluorsk&ouml;lj med smak av jordgubb/mint. Inneh&aring;ller 0,2% NaF. Rekommenderas fr&aring;n 12 &aring;r.');
+        $('.lang_muntorrhet_text18').html('Flux fluorsk&ouml;lj barn/vuxen.');
+        $('.lang_muntorrhet_text19').html('Duraphattandkr&auml;m. Anv&auml;nds fr&aring;n 16 &aring;r.');
 
         $('.lang_inskolning_text1').html('1000-inl&auml;rning <br> En metod f&ouml;r inskolning i tandv&aring;rden');
         $('.lang_inskolning_text2').html('<b>1000-INL&Auml;RNING, <i>"de 1000 g&aring;ngernas pedagogik"</i></b><br>');
@@ -121,9 +127,9 @@ function setLanguage(lang)
 
         $('.lang_info_text').html('<p><b>V&auml;lkommen till Mun-H-Center!</b></p> <p> MHC-appen ger dig m&ouml;jlighet att snabbt och enkelt f&aring; information om olika s&auml;llsynta/ovanliga diagnoser* och hur dessa tillst&aring;nd kan f&ouml;rv&auml;ntas p&aring;verka munh&auml;lsa, bettutveckling och orofacial funktion. <br> Informationen &auml;r huvudsakligen h&auml;mtad fr&aring;n f&ouml;ljande k&auml;llor: <br> <ul> <li>Socialstyrelsens kunskapsdatabas om ovanliga diagnoser <a href="http://www.socialstyrelsen.se/ovanligadiagnoser" target="_blank"> (www.socialstyrelsen.se/ovanligadiagnoser)</a></li> <li>&Aring;grenskas Dokumentation (<a href="http://www.agrenska.se" target="_blank">www.agrenska.se</a>)</li> <li>Aktuella vetenskapliga artiklar</li> <li> MHC-basen - Mun-H-Centers databas &ouml;ver orofaciala manifestationer vid s&auml;llsynta diagnoser.</li> </ul> MHC-basen inneh&aring;ller i dagsl&auml;get data fr&aring;n drygt 3000 personer med s&auml;llsynta  diagnoser. Data har samlats in via Mun-H-Centers unders&ouml;kningsformul&auml;r. Rapporter fr&aring;n MHC-basen finns publicerade under respektive diagnos p&aring; Mun-H-Centers hemsida (<a href="http://www.mun-h-center.se" target="_blank">www.mun-h-center.se</a>). D&auml;r kan man &auml;ven l&auml;sa mer om Mun-H-Center och om vad vi kan erbjuda n&auml;r det g&auml;ller utbildningar, konsultationer och hj&auml;lpmedelsinformation. <br> I maj 2015 kompletterades MHC-appen med praktiska r&aring;d kring inskolning i tandv&aring;rden och med tips om munv&aring;rd f&ouml;r barn. Observera att r&aring;d och produktinformation ges utifr&aring;n svenska rekommendationer. <br>MHC-appen har utvecklats av Mun-H-Center i samarbete med Innovationsslussen i VGR och Helpit. MHC-appen f&ouml;rvaltas och vidarutvecklas idag av Mun-H-Center i samarbete med HiQ. * Sjukdomar eller skador som finns hos h&ouml;gst 100 personer per miljon inv&aring;nare och som leder till omfattande unktionsneds&auml;ttning (Socialstyrelsen). </p>');
         $('.lang_kallor_text').html('<p><font size="3"  ><b>Informationsk&auml;llor:</b></font></p><p><font size="3"  >Informationen &auml;r huvudsakligen h&auml;mtad fr&aring;n f&ouml;ljande k&auml;llor:</font></p><ul type="DISC"><li><font size="3"  >Socialstyrelsens kunskapsdatabas om ovanliga diagnoser <a href="http://www.socialstyrelsen.se/ovanligadiagnoser" target="_blank">www.socialstyrelsen.se/ovanligadiagnoser</a></font></li><li><font size="3"  >&Aring;grenskas Dokumentation </font><a href="http://www.agrenska.se" target="_blank"><font   size="3"  ><u>www.agrenska.se</u></font></a><font size="3"  ></font></li><li><font size="3"  >Aktuella vetenskapliga artiklar</font></li><li><font size="3"  >MHC-basen - Mun-H-Centers databas &ouml;ver orofaciala manifestationer vid s&auml;llsynta diagnoser <a href="http://www.mun-h-center.se" target="_blank">www.mun-h-center.se</a></font></li></ul>');
-       
 
-        $('.lang_contact_text').html('<p><font size="4"  ><b>Kontaktuppgifter:</b></font></p><font size="3"  ><p><b>Mun-H-Center &Aring;grenska</b><br /><i>Bes&ouml;kadress:</i><br />Lill&ouml;v&auml;gen<br />436 02 Hov&aring;s<br /><i>Postadress:</i><br />Mun-H-Center &Aring;grenska, Lilla Amund&ouml;n<br />Box 2046<br />SE-436 02 Hov&aring;s<br /><i>Telefon: </i>+46 (0)31-750 92 00</p><p><b>Mun-H-Center Odontologen</b><br /><i>Bes&ouml;kadress:</i><br />Medicinaregatan 12 A<br />413 90 G&ouml;teborg<br /><i>Postadress:</i><br />Folktandv&aring;rden V&auml;stra G&ouml;taland<br />Mun-H-Center Odontologen<br />Box 7163<br />SE-402 33 G&ouml;teborg<br /><i>Telefon: </i>+46 (0)10-441 79 81</p></font>');
+
+        $('.lang_contact_text').html('<p><font size="4"  ><b>Kontaktuppgifter:</b></font></p><font size="3"  ><p><b>Mun-H-Center Odontologen</b><br /><i>Bes&ouml;kadress:</i><br />Medicinaregatan 12 A<br />413 90 G&ouml;teborg<br /><i>Postadress:</i><br />Folktandv&aring;rden V&auml;stra G&ouml;taland<br />Mun-H-Center Odontologen<br />Box 7163<br />SE-402 33 G&ouml;teborg<br /><i>Telefon: </i>+46 (0)10-441 79 80</p></font>');
         //$('#diagnoserlistview').attr("data-filter-placeholder", "S&ouml;kJS..");
         $('[data-type="search"]').attr("placeholder", "Sök..");
         $('#swe_lang').attr('src', 'img/flaggor/Sverige-180.png');
@@ -153,8 +159,8 @@ function setLanguage(lang)
         $('.lang_behandling').html('Advice on monitoring and treatment');
         $('.lang_bilder').html('Images');
         $('.lang_munvard').html('Oral care for Children');  // Dummy
-        $('.lang_inskolning').html('Education in dental care'); 
-        $('.lang_tandborstning').html('Tips for tooth brushing');  
+        $('.lang_inskolning').html('Education in dental care');
+        $('.lang_tandborstning').html('Tips for tooth brushing');
         $('.lang_muntorrhet').html('Tips for dry mouth');  // Dummy
         $('.lang_munvard_short').html('back');
         $('.lang_inskolning').html('Familiarisation to dental care');
@@ -164,7 +170,7 @@ function setLanguage(lang)
         $('.lang_tandborstning_short').html('Tooth brushing');
 
          $('.lang_tandborstning_text1').html('Oral care for children – Tips for tooth brushing.');
-        
+
         $('.lang_tandborstning_text2').html('It can be difficult to brush somebody else\'s teeth. In this section, we\'d like to give some practical tips on how tooth brushing can be made easier and as effective as possible. Toothpaste with fluoride helps to strengthen the enamel, and thereby reduces the risk of cavities. The ideal is brushing every morning and evening. The goal is for the child to have a healthy mouth all his/her life.');
         $('.lang_tandborstning_text3').html('DIFFERENT WORKING POSITIONS FOR TOOTH BRUSHING');
         $('.lang_tandborstning_text4').html('Support the child\'s head with your body. It\'s important to have a working position that feels safe and good, both for the child and the person brushing.');
@@ -205,16 +211,22 @@ function setLanguage(lang)
         $('.lang_muntorrhet_text2').html('Dry lips and mouth can be caused by mouth breathing and certain medicines.');
         $('.lang_muntorrhet_text3').html('Moisturise dry lips and the mucous membrane in the mouth with an oral wipe dipped in rapeseed oil. Always begin with moisturising the lips; then continue into the mouth with mucous membranes, tongue, teeth and palate.');
         $('.lang_muntorrhet_text4').html('Instructional film showing how to moisturise the mucous membranes in the mouth and the lips. The film\'s name on YouTube is \"Sm&ouml;rjning av munnen med muntork\". (Moisturising the mouth with an oral wipe.)');
-        $('.lang_muntorrhet_text5').html('CHOICE OF PRODUCT FOR DRY MOUTH');
+        $('.lang_muntorrhet_text5').html('SUGGESTED PRODUCTS FOR DRY MOUTH');
         $('.lang_muntorrhet_text6').html('An oral wipe can be used to moisturise or dry the mouth. There are two sizes. Not reuseable.');
         $('.lang_muntorrhet_text7').html('MOISTURISING AND SALIVA-STIMULATING PRODUCTS');
         $('.lang_muntorrhet_text8').html('For children who have dry mouth, it can feel nice with something moisturising, like rapeseed oil. Take a teaspoon full and moisturise inside the mouth using the tongue, or an oral wipe dipped in the oil.');
         $('.lang_muntorrhet_text9').html('Various gels for dry mouth are available to buy. They can be applied with an oral wipe, for instance.');
         $('.lang_muntorrhet_text10').html('Zendium Saliva moisturising gel, based on colostrum (raw milk). The gel\'s taste is mild, and it contains fluoride.');
-        $('.lang_muntorrhet_text11').html('Proxident mouth moisturising gel is available both with saliva-stimulating and moisturising functions.');
-        $('.lang_muntorrhet_text12').html('');
+        $('.lang_muntorrhet_text11').html('Proxident mouth spray and oral moisturizing gel are available with both saliva-stimulating and lubricating functions.');
+        $('.lang_muntorrhet_text12').html('Further information about oral care products and aids can be found on the following websites: <br> <a href="http://www.mun-h-center.se">www.mun-h-center.se</a> <br>    <a href="http://www.apotea.se" target="_blank">www.apotea.se</a> <br> <a href="http://www.proxident.se">www.proxident.se</a>');
+        $('.lang_muntorrhet_text13').html('Softening lip balm');
+        $('.lang_muntorrhet_text14').html('FLUORIDE PREPARATIONS (on recommendation from dental care)');
+        $('.lang_muntorrhet_text15').html('About fluoride and its effects');
+        $('.lang_muntorrhet_text16').html('Proxident toothpaste for dry mouth. Flavourless toothpaste. Used from age 6 upwards.');
+        $('.lang_muntorrhet_text17').html('Flux dry mouth rinse. Fluoride rinse with strawberry/mint flavour. Contains 0.2 % NaF. Recommended from age 12 upwards.');
+        $('.lang_muntorrhet_text18').html('Flux fluoride rinse child/adult.');
+        $('.lang_muntorrhet_text19').html('Duraphat toothpaste. Used from age 16 upwards.');
 
-    
         $('.lang_inskolning_text1').html('1000-learning. A method for getting familiar with dental care.');
         $('.lang_inskolning_text2').html('<b>1000-LEARNING, <i>"The pedagogy of the 1000 times"</i></b><br>');
         $('.lang_inskolning_text3').html('The method involves dedicating more treatment time in the same day, and including several brief practice sessions with little breaks in-between each session. Each procedure is practiced several times, and the practice sessions are made visual and concrete with visual support. The images show the different procedures and the sequence of the visit. The practice session is adapted to fit the individual, and the goal is to make the patient feel part of the process, safe and successful!');
@@ -261,7 +273,7 @@ function setLanguage(lang)
 
         $('.lang_info_text').html('<p><b>Welcome to Mun-H-Center!</b> </p> The MHC-app gives you the opportunity to simply and rapidly find information about rare diseases* and how these conditions might have an impact on oral health and orofacial function. The information has mainly been retrieved from the following sources: The database on Rare Diseases from The Swedish National Board of Health and Welfare <a href="http://www.socialstyrelsen.se/rarediseases" target="_blank"><u>www.socialstyrelsen.se/rarediseases</a></u></li> <li>The &Aring;grenska Documentation  (<a href="http://www.agrenska.se" target="_blank"><u>www.agrenska.se</u>  </a>)</li> <li>Scientific publications</li> <li> The MHC- database on rare diseases.</li> </ul> </p>  <p>At present, the MHC-database contains data from more than 3000 individuals with rare diseases. Data has been collected through the Mun-H-Center assessment forms. Reports from the MHC-database are published on the Mun-H-Center web site (<a href="http://www.mun-h-center.se" target="_blank"><u>www.mun-h-center.se</u>  </a>). On the web site you can also read more about the center and find out what we can offer concerning courses, consultations as well as information regarding orofacial aids and assistive devices. </p><p></p> In May 2015 the MHC app was supplemented with practical advice on how to introduce children to dental care and with some advice on oral care for children. Please observe that any advice or product information given in this application is based on Swedish recommendations and that you will have to check with your dental healthcare advisor what the recommendations are in your country.<p>The MHC app has been developed by Mun-H-Center in cooperation with Innovationsslussen in VGR and Helpit. The MHC app is now maintained and continuously updated by Mun-H-Center in cooperation with HiQ.</p><p> *Diseases or disorders which affect fewer than 100 people per million, and which lead to a marked degree of disability (the Swedish National Board of Health and Welfare).</p>');
         $('.lang_kallor_text').html('<p><font size="3"  ><b>Sources of information:</b></font></p><p><font size="3"  >The information has mainly been retrieved from the following sources:</font></p><ul type="DISC"><li><font size="3"  >The database on Rare Diseases from The Swedish National Board of Health and Welfare <a href="http://www.socialstyrelsen.se/rarediseases" target="_blank"><div class="textLink"> www.socialstyrelsen.se/rarediseases </div></a></font></li><li><font size="3"  >The &Aring;grenska Documentation <a href="http://www.agrenska.se" target="_blank">www.agrenska.se</a></font></li><li><font size="3"  >Scientific publications</font></li><li><font size="3"  >The MHC- database on rare diseases <a href="http://www.mun-h-center.se" target="_blank">www.mun-h-center.se</a></font></li></ul>')
-        $('.lang_contact_text').html('<p><font size="4"  ><b>Contact:</b></font></p><font size="3"  ><p><b>Mun-H-Center &Aring;grenska</b><br /><i>Visiting address:</i><br />Lill&ouml;v&auml;gen<br />436 02 Hov&aring;s<br /><i>Postal address:</i><br />Mun-H-Center &Aring;grenska, Lilla Amund&ouml;n<br />Box 2046<br />SE-436 02 Hov&aring;s<br /><i>Phone: </i>+46 (0)31-750 92 00</p><p><b>Mun-H-Center Odontologen</b><br /><i>Visiting address:</i><br />Medicinaregatan 12 A<br />413 90 G&ouml;teborg<br /><i>Postal address:</i><br />Folktandv&aring;rden V&auml;stra G&ouml;taland<br />Mun-H-Center Odontologen<br />Box 7163<br />SE-402 33 G&ouml;teborg<br /><i>Phone: </i>+46 (0)10-441 79 81</p></font>');
+        $('.lang_contact_text').html('<p><font size="4"  ><b>Contact:</b></font></p><p><b>Mun-H-Center Odontologen</b><br /><i>Visiting address:</i><br />Medicinaregatan 12 A<br />413 90 G&ouml;teborg<br /><i>Postal address:</i><br />Folktandv&aring;rden V&auml;stra G&ouml;taland<br />Mun-H-Center Odontologen<br />Box 7163<br />SE-402 33 G&ouml;teborg<br /><i>Phone: </i>+46 (0)10-441 79 80</p></font>');
         $('[data-type="search"]').attr("placeholder", "Search...");
         $('#swe_lang').attr('src','img/flaggor/Sverige-180-unselected.png');
         $('#eng_lang').attr('src', 'img/flaggor/ENG-180.png');
