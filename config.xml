@@ -1,7 +1,7 @@
 
 <?xml version='1.0' encoding='utf-8'?>
 
-<widget id="Se.vgregion.munhc" version="2.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="se.vgregion.munhc" version="2.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>MHC-appen</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -37,7 +37,7 @@
     <icon src="res/screen/android/xhdpi.png" density="xhdpi" />
     <icon src="res/screen/android/xxhdpi.png" density="xxhdpi" />
 </platform>
-    
+
     <platform name="ios">
             <!-- images are determined by width and height. The following are supported -->
             <splash src="res/screen/ios/Default~iphone.png" width="320" height="480"/>
