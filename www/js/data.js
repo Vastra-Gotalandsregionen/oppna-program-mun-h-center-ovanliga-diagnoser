@@ -1,4 +1,4 @@
-var jsonStr = [{
+var jsonStr = [ {
     "Syndrom": "22q11 deletion syndrome",
     "Lang": "eng",
     "Allm_icd_10": "D82.1",
@@ -462,8 +462,8 @@ var jsonStr = [{
     "Allm_orsak": "Cystinos orsakas av en skada p\u00e5 den s\u00e5 kallade CTNS-genen p\u00e5 kromosom 17. Skadan leder till en ansamling av \u00e4mnet cystin (ett \u00e4ggvite\u00e4mne) i cellernas lysosymer, som i sin tur medf\u00f6r att cellernas funktion f\u00f6rs\u00e4mras och\/eller d\u00f6r. S\u00e4rskilt k\u00e4nsliga organ \u00e4r njurar, \u00f6gon och sk\u00f6ldk\u00f6rtel. Sjukdomen \u00e4rvs autosomalt recessivt.",
     "Allm_forekomst": "1:160 000 - 200 000 levande f\u00f6dda.",
     "Allm_allm_symtom": "Tre varianter f\u00f6rekommer: Nefropatisk cystinos, intermedi\u00e4r cystinos och icke nefropatisk cystinos. Barnen f\u00f6ds friska och m\u00e5r i stort sett bra de f\u00f6rsta m\u00e5naderna. Nedsatt njurfunktion medf\u00f6r s\u00e5 sm\u00e5ningom kraftig njursvikt och n\u00e4r barnet f\u00f6rlorar mycket urin och m\u00e5ste dricka stora m\u00e4ngder v\u00e4tska brukar detta leda till unders\u00f6kning och att diagnosen st\u00e4lls. Njurskadorna inneb\u00e4r att personen kan beh\u00f6va dialysbehandling eller genomg\u00e5 njurtransplantation. Elektrolytbalansen p\u00e5verkas. \u00d6gon och syn kan p\u00e5verkas vid inlagring av cystinkristaller i hornhinna och n\u00e4thinna. Tillv\u00e4xtst\u00f6rning \u00e4r vanligt liksom muskelsvaghet, underfunktion av sk\u00f6ldk\u00f6rteln och f\u00f6rsenad pubertetsutveckling. Vid den lindrigare formen icke nefropatisk cystinos p\u00e5verkas endast \u00f6gonen. Idag finns m\u00f6jlighet till behandling med l\u00e4kemedlet cysteamin. Ibland beh\u00f6vs \u00e4ven behandling med tillv\u00e4xthormon, sk\u00f6ldk\u00f6rtelhormon och k\u00f6nshormon. I behandlingen ing\u00e5r \u00e4ven att tillgodose att personen f\u00e5r i sig tillr\u00e4ckligt med v\u00e4tska, elektrolyter och n\u00e4rings\u00e4mnen. M\u00e5nga har mycket stora energibehov vilket leder till behov av att \u00e4ta mycket och ofta.",
-    "Orala_symtom": "Sug-, tugg- och sv\u00e4ljsv\u00e5righeter f\u00f6rekommer. Sondmatning \u00e4r vanligt och ibland n\u00f6dv\u00e4ndigt som komplement f\u00f6r att personen ska f\u00e5 i sig tillr\u00e4ckligt med f\u00f6da. Ibland ses vita fl\u00e4ckar i tandemaljen.",
-    "Rekommendationer": "<UL><LI>Personer med Cystinos beh\u00f6ver ofta f\u00f6rst\u00e4rkt f\u00f6rebyggande tandv\u00e5rd och helst f\u00e5 tr\u00e4ffa samma personal vid bes\u00f6ken. Med tanke p\u00e5 kosten finns troligen en \u00f6kad risk f\u00f6r h\u00e5l i t\u00e4nderna. <\/LI><LI>Bettutveckling f\u00f6ljs av ordinarie tandl\u00e4kare som b\u00f6r vara v\u00e4l insatt i de problem som kan f\u00f6rekomma f\u00f6r barn med annat tillv\u00e4xtm\u00f6nster och vid behov konsulteras ortodontist. <\/LI><LI>\u00c4t- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus (nutritionsteam eller dysfagiteam) eller habiliteringen.<\/LI><\/UL>",
+    "Orala_symtom": "Sug-, tugg- och sv\u00E4ljsv\u00E5righeter f\u00F6rekommer. Energi- och v\u00E4tskebehovet \u00E4r stort och m\u00E5ste tillf\u00F6ras dygnet runt. Gastrostomi (\u201Dknapp p\u00E5 magen\u201D) \u00E4r vanligt och ibland n\u00F6dv\u00E4ndigt som komplement f\u00F6r att personen ska f\u00E5 i sig till\u00ACr\u00E4ck\u00ACligt med f\u00F6da, v\u00E4tska och mediciner. Emaljst\u00F6rningar p\u00E5 t\u00E4nderna \u00E4r vanligt. Vissa mediciner har d\u00E5lig andedr\u00E4kt som biverkan.",
+    "Rekommendationer": "<UL><LI>De flesta beh\u00F6ver f\u00F6rst\u00E4rkt f\u00F6rebyggande tandv\u00E5rd och helst f\u00E5 tr\u00E4ffa samma personal vid bes\u00F6ken. Med tanke p\u00E5 kost, v\u00E4tskeintag och medicinering finns en \u00F6kad risk f\u00F6r h\u00E5l i t\u00E4nderna (karies). <\/LI><LI>Bettutveckling f\u00f6ljs av ordinarie tandl\u00e4kare som b\u00f6r vara v\u00e4l insatt i de problem som kan f\u00f6rekomma f\u00f6r barn med annat tillv\u00e4xtm\u00f6nster och vid behov konsulteras ortodontist. <\/LI><LI>\u00c4t- och sv\u00e4ljsv\u00e5righeter utreds och behandlas av specialistteam p\u00e5 sjukhus (nutritionsteam eller dysfagiteam) eller habiliteringen.<\/LI><\/UL>",
     "Bild": "",
     "Bildtext": ""
 }, {
@@ -474,8 +474,8 @@ var jsonStr = [{
     "Allm_orsak": "Cystinosis is caused by a mutation in the so-called CTNS gene on chromosome 17. This mutation causes an amino acid, cystine, to accumulate in the lysosomes of the cells. This high concentration of cystine is harmful and causes cell function to deteriorate and\/or causes cells to die. Certain organs such as the kidneys, the eyes and thyroid, are particularly sensitive to elevated levels of cystine. The disorder is inherited autosomal recessively.",
     "Allm_forekomst": "1:160,000 - 200,000 live births.",
     "Allm_allm_symtom": "There are three forms of the condition: Nephropathic cystinosis (also called infantile), intermediate cystinosis (a juvenile form) and the third form, nonnephropathic cystinosis occurs exclusively in adults. The children are born healthy and appear generally normal during the first months. Impaired kidney function eventually leads to severe kidney failure. Excessive urination and thirst commonly lead to evaluation and diagnosis. Kidney damage may result in the need for dialysis or kidney transplantation. The electrolyte balance is affected. The eyes and vision may be affected by storage of cystine crystals in the cornea and retina. Growth disorders are common as well as weak muscles. The function of the thyroid gland may be impaired (hypothyroidism) and puberty may be delayed and\/or stop. In non-nephropathic cystinosis the only symptoms are from the eyes. Today, cystinosis may be treated with medications (Cysteamine®, Cystagon). Treatment may also be required in the form of thyroid hormones, growth hormones and sex hormones as well as ensuring that the child receives adequate amounts of fluids, electrolytes and nutrition. Many have very high energy requirements, which means that they need to eat a lot and often.",
-    "Orala_symtom": "Sucking, chewing and swallowing difficulties occur. Enteral feeding is common and sometimes necessary to ensure that the child\u2019s nutritional requirements are met. Sometimes white spots on the dental enamel can be seen.",
-    "Rekommendationer": "<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential.<\/LI><LI>Dental development is checked up by dentist who is familiar with deviating growth pattern and as need arises consult orthodontist.<\/LI><LI>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment center.<\/LI><\/UL>",
+    "Orala_symtom": "Sucking, chewing and swallowing difficulties occur. The need for energy and liquids are extensive both day and night. Enteral feeding is common and sometimes necessary to ensure that the child\u2019s nutritional requirements are met. Enamel disturbances are common. A side effect of some medications is a bad breath. ",
+    "Rekommendationer": "<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential. Medication and frequent eating and drinking increase the risk of caries.<\/LI><LI>Dental development is checked up by dentist who is familiar with deviating growth pattern and as need arises consult orthodontist.<\/LI><LI>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment center.<\/LI><\/UL>",
     "Bild": "",
     "Bildtext": ""
 }, {
@@ -551,7 +551,7 @@ var jsonStr = [{
     "Bild": "DM-flicka.jpg; DM-pojke.jpg",
     "Bildtext": "Karakt\u00e4ristiskt utseende vid dystrofia myotonika (medf\u00f6dd\/barndoms):<br>L\u00e5ngsmalt ansikte. Utsl\u00e4tad mimik. H\u00e4ngande \u00f6gonlock. \u00d6ppen mun. Triangelformad mun. \u00d6ppet bett."
 }, {
-    "Syndrom": "Ectodermal dysplasia",
+    "Syndrom": "Ectodermal dysplasia (ED\/HED)",
     "Lang": "eng",
     "Allm_icd_10": "Q82.4",
     "Allm_synonymer": "There are 186 (July 2013) different types of ectodermal dysplasia (ED), of which hypohidrotic ectodermal dysplasia (HED) is the most common. Of these, the X-linked variety (Christ-Siemens-Touraine syndrome) is the most common, and makes up about 80-90 % of all ED cases.",
@@ -587,7 +587,7 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
-    "Syndrom": "Ektodermal dysplasi",
+    "Syndrom": "Ektodermal dysplasi (ED\/HED)",
     "Lang": "swe",
     "Allm_icd_10": "Q82.4",
     "Allm_synonymer": "Undergrupper: Det finns 186 (juli 2013) olika former av ektodermal dysplasi (ED) varav hypohidrotisk ektodermal dysplasi (HED) \u00e4r den vanligaste. Av dessa \u00e4r den x-bundra formen (Christ-Siemens-Touraines syndrom) vanligast och svarar f\u00f6r 80-90% av all ED.",
@@ -826,6 +826,30 @@ var jsonStr = [{
     "Rekommendationer": "<UL><LI>Det \u00e4r mycket viktigt med kontinuerligt f\u00f6rst\u00e4rkt f\u00f6rebyggande munv\u00e5rd.<LI\/><LI>Personer med Huntingtons sjukdom kan beh\u00f6va p\u00e5minnelse om tider f\u00f6r behandling.<LI\/><LI>Mjukplastskena som skyddar mot bitskador kan bli aktuellt.<LI\/><LI>P\u00e5 sikt beh\u00f6ver anh\u00f6riga och assistenter f\u00e5 instruktion om hur hj\u00e4lpa till med munhygien.<LI\/> <LI>Tandbehandling kan underl\u00e4ttas om patienten f\u00e5r hj\u00e4lp att sitta\/ligga s\u00e5 avslappnat som m\u00f6jligt i tandl\u00e4karstolen - exempelvis i Tumlekuddar.<LI\/><LI>Undvik stora m\u00e4ngder vatten vid risk f\u00f6r aspiration<LI\/><UL\/>",
     "Bild": "",
     "Bildtext": ""
+},{
+    "Syndrom": "Hurler syndrome",
+    "Lang": "eng",
+    "Allm_icd_10": "E76.0",
+    "Allm_synonymer": "Mucopolysaccharidosis type I, MPS I H",
+    "Allm_orsak": "Mucopolysaccharidosis is a collective name for various metabolic diseases that occur due to a deficiency of various lysosomal enzymes. Lysosomal enzymes are needed to break down certain substances which would otherwise accumulate in the body and could cause damage to different organs.",
+    "Allm_forekomst": "1 in 100,000 live births.",
+    "Allm_allm_symtom": "Hurler syndrome is the most severe form of MPS I, where the brain, heart, lungs, liver, skeleton, joints, vision and hearing are all affected to varying degrees. ",
+    "Orala_symtom": "There are typical facial characteristic associated with the diagnosis. There are often spaces between the teeth and enamel disturbances occur. Gums may bleed easily. Bite deviations are common. A large tongue and reduced opening of the jaw may also occur. The upper airways are sometimes narrow and this can cause an increased risk of sleep apnoea. Some medicines may produce side effects in the form of a dry mouth. In the case of neurological disabilities, oral motor functions and speech development may be affected. Eating difficulties and reduced saliva control are common.",
+    "Rekommendationer": "<UL><li>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential.</li><li>Regular check-ups of dental and jaw development. Orthodontist should be consulted when needed.</li><li>When the jaws do not open properly, the function of the jaw joint should be investigated, and appropriate treatment thereafter prescribed.</li><li>When treating medically compromised patients always contact their doctor for medical advice (bleeding problems, heart diseases etc). </li><li>Patients with MPS syndromes should be examined by an experienced anaesthetist before planned surgery.</li><li>Training in oral motor skills and extra stimulation in cases of eating disorders, speech difficulties and impaired saliva control may be necessary.</li><li>Speech, language and communication training are often required.</li> <LI>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.<\/LI><\/UL>",
+    "Bild": "",
+    "Bildtext": ""
+}, {
+    "Syndrom": "Hurlers sjukdom",
+    "Lang": "swe",
+    "Allm_icd_10": "E76.0",
+    "Allm_synonymer": "Mukopolysackaridos typ I, MPS I H",
+    "Allm_orsak": "Mukopolysackaridoser \u00E4r ett samlingsnamn f\u00F6r \u00E4mnesoms\u00E4ttningssjukdomar som uppst\u00E5r p\u00E5 grund av brist p\u00E5 olika lysosomala enzymer. Lysosomala enzymer beh\u00F6vs f\u00F6r att bryta ned vissa \u00E4mnen som annars ansamlas i kroppen och kan skada olika organ.",
+    "Allm_forekomst": "1:100 000 levande f\u00F6dda.",
+    "Allm_allm_symtom": "Hurlers sjukdom \u00E4r den sv\u00E5raste formen av MPS I, d\u00E4r hj\u00E4rnan, hj\u00E4rtat, lungorna, levern, skelettet, lederna, synen och h\u00F6rseln \u00E4r p\u00E5verkade i olika grad. ",
+    "Orala_symtom": "Det finns karakt\u00E4ristiska ansiktsdrag f\u00F6rknippade med diagnosen. T\u00E4nderna sitter ofta glest och emaljf\u00F6r\u00E4ndringar f\u00F6rekommer. Tandk\u00F6ttet kan vara l\u00E4ttbl\u00F6dande. Bettavvikelser \u00E4r vanligt. Stor tunga och nedsatt gapf\u00F6rm\u00E5ga kan ocks\u00E5 f\u00F6rekomma. De \u00F6vre andningsv\u00E4garna \u00E4r ibland tr\u00E5nga och det finns d\u00E4rf\u00F6r en \u00F6kad risk f\u00F6r s\u00F6mnapn\u00E9. Vissa mediciner kan ge biverkningar i form av muntorrhet. Vid neurologisk funktionsneds\u00E4ttning kan munmotorik och talutveckling vara p\u00E5verkade. \u00C4tsv\u00E5righeter och nedsatt salivkontroll \u00E4r vanligt.",
+    "Rekommendationer": "<UL><li>Viktigt att personer med MPS-sjukdomar tidigt f\u00E5r kontakt med tandv\u00E5rden f\u00F6r f\u00F6rst\u00E4rkt f\u00F6rebyggande v\u00E5rd och munh\u00E4lsoinformation.</li><li>Tand- och bettutveckling ska f\u00F6ljas. Vid avvikelser ska ortodontist konsulteras p\u00E5 tidigt stadium f\u00F6r planering av eventuell bettkorrigerande behandling. </li><li>Vid begr\u00E4nsad gapf\u00F6rm\u00E5ga b\u00F6r k\u00E4kledsfunktionen utredas och d\u00E4refter l\u00E4mplig behandling s\u00E4ttas in. </li><li>L\u00E4karkontakt rekommenderas inf\u00F6r tandbehandling av patienter med medicinska tillst\u00E5nd, som t.ex. hj\u00E4rtfel. </li><li>Inf\u00F6r en eventuell operation b\u00F6r alltid en narkosspecialist med god k\u00E4nnedom om sjukdomen g\u00F6ra en bed\u00F6mning.</li><li>Munmotorisk tr\u00E4ning och stimulering kan vara aktuellt vid \u00E4tsv\u00E5righeter, talsv\u00E5righeter och nedsatt salivkontroll. </li><li>Tal-, spr\u00E5k- och kommunikationstr\u00E4ning \u00E4r ofta motiverat. </li> <LI>\u00C4t- och sv\u00E4ljsv\u00E5righeter utreds och behandlas av specialistteam p\u00E5 sjukhus eller p\u00E5 habiliteringen.<\/LI><\/UL>",
+    "Bild": "",
+    "Bildtext": ""
 }, {
     "Syndrom": "Hydrocefalus",
     "Lang": "swe",
@@ -855,7 +879,7 @@ var jsonStr = [{
     "Lang": "swe",
     "Allm_icd_10": "Q82.3",
     "Allm_synonymer": "Bloch-Sulzbergers syndrom.",
-    "Allm_orsak": "Orsaken till sjukdomen \u00e4r f\u00f6r\u00e4ndringar (mutationer) i arvsanlaget (genen) som kallas NEMO. Genen \u00e4r av betydelse f\u00f6r inflammation, immunsvar och programmerad celld\u00f6d. Genf\u00f6r\u00e4ndringen antas st\u00f6ra utvecklingen av flera organ i fostret (ektodermala v\u00e4vnader). Incontinentia pigmenti (IP) \u00e4rvs X-kromosombundet dominant. Symtom f\u00f6rekommer n\u00e4stan bara hos flickor\/kvinnor, som har tv\u00e5 X-kromosomer och en av dessa \u00e4r d\u00e5 normal. Pojkar f\u00f6ds inte med sjukdomen d\u00e5 manliga foster med sjukdomsanlaget oftast d\u00f6r tidigt.",
+    "Allm_orsak": "Orsaken till sjukdomen \u00e4r f\u00f6r\u00e4ndringar (mutationer) i arvsanlaget (genen) som kallas NEMO. Genen \u00e4r av betydelse f\u00f6r inflammation, immunsvar och programmerad celld\u00f6d. Genf\u00f6r\u00e4ndringen antas st\u00f6ra utvecklingen av flera organ i fostret (ektodermala v\u00e4vnader). Incontinentia pigmenti (IP) \u00e4rvs X-kromosombundet dominant. Symtom f\u00f6rekommer n\u00e4stan bara hos flickor\/kvinnor, som har tv\u00e5 X-kromosomer och en av dessa \u00e4r d\u00e5 normal. Pojkar f\u00f6ds inte med sjukdomen d\u00e5 manliga foster med sjukdomsanlaget oftast d\u00f6r tidigt. IP \u00E4r den vanligaste formen av ektodermal dysplasi hos flickor\/kvinnor.",
     "Allm_forekomst": "40:1000 000 inv\u00e5nare.",
     "Allm_allm_symtom": "Inom en och samma familj kan graden av symtom variera. Symtom fr\u00e5n huden f\u00f6rekommer hos i stort sett alla. <EM>Stadium 1<\/EM>: Redan vid f\u00f6delsen kan man se v\u00e4tskefyllda bl\u00e5sor. Bl\u00e5sorna f\u00f6rsvinner vid ungef\u00e4r 4 m\u00e5naders \u00e5lder. <EM>Stadium 2<\/EM> karakt\u00e4riseras av v\u00e5rtliknande, girlandformade upph\u00f6jningar, vanligast p\u00e5 armar och ben och i h\u00e5rbotten. Dessa f\u00f6rsvinner hos de flesta vid ungef\u00e4r 6 m\u00e5naders \u00e5lder. <EM>Stadium 3<\/EM> karakt\u00e4riseras av \u00f6kad pigmentering i m\u00f6rka streckformade omr\u00e5den. Den har ocks\u00e5 gett sjukdomen dess namn, incontinentia pigmenti. <EM>Stadium 4<\/EM> karakt\u00e4riseras av bleka, h\u00e5rfria hudomr\u00e5den, oftast p\u00e5 benen. Spottk\u00f6rtlar och svettk\u00f6rtlar kan ha nedsatt funktion. Synneds\u00e4ttning \u00e4r vanligt exempelvis n\u00e4rsynthet, skelning, gr\u00e5 starr eller synneds\u00e4ttning beroende p\u00e5 f\u00f6r\u00e4ndringar i n\u00e4thinnan. Andra symtom \u00e4r kala fl\u00e4ckar i h\u00e5rbotten eller tunt och risigt h\u00e5r och naglarna kan saknas helt eller ha linjer eller fl\u00e4ckar. Symtom fr\u00e5n nervsystemet f\u00f6rkommer ocks\u00e5. Det vanligaste \u00e4r en eller flera episoder av kramper i nyf\u00f6ddhetsperioden. Dessa ger inga men f\u00f6r framtiden. Personer med IP kan ocks\u00e5 ha l\u00e4s- och skrivsv\u00e5righeter eller f\u00f6rsenad intellektuell och\/eller motorisk utveckling.",
     "Orala_symtom": "Nedsatt spottk\u00f6rtelfunktion kan medf\u00f6ra muntorrhet och d\u00e4rmed \u00f6kad risk f\u00f6r karies. M\u00e5nga med IP saknar enstaka eller flera tandanlag och det \u00e4r ocks\u00e5 vanligt att mj\u00f6lkt\u00e4nder och permanenta t\u00e4nder kommer senare \u00e4n normalt. Formavvikelser t ex sm\u00e5 t\u00e4nder och t\u00e4nder med konisk eller oregelbunden form \u00e4r vanligt.",
@@ -867,7 +891,7 @@ var jsonStr = [{
     "Lang": "eng",
     "Allm_icd_10": "Q82.3",
     "Allm_synonymer": "Bloch-Sulzbergers syndrome.",
-    "Allm_orsak": "IP is caused by changes (mutations) in the gene referred to as NEMO. This gene is of significance in relation to inflammations, the immune defense system and programmed cell death. It is assumed that this genetic mutation disturbs the development of several organs in the foetus (ectodermal tissues). IP is inherited as an X-linked dominant trait. Symptoms occur almost exclusively in girls and women, who have two X chromosomes, only one of which is normal in these cases. Boys are not born with the disorder, since male foetuses carrying the genetic defect do not usually survive to term.",
+    "Allm_orsak": "IP is caused by changes (mutations) in the gene referred to as NEMO. This gene is of significance in relation to inflammations, the immune defense system and programmed cell death. It is assumed that this genetic mutation disturbs the development of several organs in the foetus (ectodermal tissues). IP is inherited as an X-linked dominant trait. Symptoms occur almost exclusively in girls and women, who have two X chromosomes, only one of which is normal in these cases. Boys are not born with the disorder, since male foetuses carrying the genetic defect do not usually survive to term.IP is most common form of ectodermal dysplasia in females.",
     "Allm_forekomst": "40:1000,000 inhabitants.",
     "Allm_allm_symtom": "The severity of symptoms may vary even within one and the same family. Skin symptoms occur in virtually all cases. Stage 1: as early as at birth, there may be fluid-filled blisters. These blisters disappear by the age of approximately 4 months. Stage 2 is characterized by wart-like, chain shaped bumps, usually in the arms and legs and in the scalp. These disappear in most cases by the age of 6 months. Stage 3 is characterized by increased pigmentation of patches of skin, in a swir led pattern This stage is also accountable from the name of the disease, incontinentia pigmenti. Stage 4 is characterized by pale, hairless patches of skin, usually on the legs. The functions of the salivary and sweat glands may be impaired. Visual impairments such as myopia, squinting, cataract or vision problems caused by retinal changes commonly occur. Other symptoms include bald spots on the scalp, or thin, br ittle hair and the absence of nails, or nails with ridges or pitting. There may also be symptoms from the nervous system, the most frequent being one or more episodes of cramps during infancy. These have no lasting detrimental effects. Individuals with IP may also have reading and writing difficulties or delayed intellectual and\/or motor development.",
     "Orala_symtom": "Impaired salivary gland function may result in a dry mouth and a corollary risk of increased caries. Many individuals with IP may be missing one or more teeth altogether, and late eruption of both pr imary and permanent teeth is common. It is also common that the teeth display anomalies of shape, for instance they may be small, conical or irregular.",
@@ -1007,6 +1031,30 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
+    "Syndrom": "Landau-Kleffners syndrom",
+    "Lang": "swe",
+    "Allm_icd_10": "F80.3",
+    "Allm_synonymer": "",
+    "Allm_orsak": "Landau-Kleffners syndrom \u00E4r en f\u00F6rv\u00E4rvad epileptisk spr\u00E5kst\u00F6rning som oftast debuterar i \u00E5ldrarna 3-8 \u00E5r. Orsaken \u00E4r inte k\u00E4nd men det kan finnas \u00E4rftliga faktorer.",
+    "Allm_forekomst": "S\u00E4llsynt.",
+    "Allm_allm_symtom": "De f\u00F6rsta symtomen \u00E4r oftas att barnet pl\u00F6tsligt eller gradvis f\u00F6rlorar f\u00F6rm\u00E5gan att tala eller f\u00F6rst\u00E5 ord. Andra symtom \u00E4r elektrofysiologiska st\u00F6rningar i hj\u00E4rnan som kan ge epileptiska anfall, oftast nattetid. Barnet kan \u00E4ven ha sv\u00E5rt att tolka vanliga ljud. Det \u00E4r inte ovanligt med bristande uppm\u00E4rksamhet och koncentrationssv\u00E5righeter. En del av barnen tillfrisknar helt eller n\u00E4stan helt och de epileptiska anfallen kan helt f\u00F6rsvinna efter ton\u00E5ren. Ett visst m\u00E5tt av sv\u00E5righeter med tal, spr\u00E5k, kommunikation, inl\u00E4rning och beteende kan dock kvarst\u00E5.",
+    "Orala_symtom": "Barn med Landau-Kleffners syndrom f\u00F6rlorar pl\u00F6tsligt eller gradvis f\u00F6rm\u00E5gan att tala och f\u00F6rst\u00E5 ord. Det finns inga specifika problem med t\u00E4nder och bett hos dessa barn men oralmotoriska sv\u00E5righeter kan f\u00F6rekomma som ibland medf\u00F6r \u00E4tsv\u00E5righeter och nedsatt salivkontroll.",
+    "Rekommendationer": "<UL><li>Viktigt att personer med Landau-Kleffners syndrom tidigt f\u00E5r kontakt med tandv\u00E5rden f\u00F6r f\u00F6rst\u00E4rkt f\u00F6rebyggande v\u00E5rd och munh\u00E4lsoinformation. Vissa mediciner kan ge muntorrhet och \u00F6kad risk f\u00F6r karies.</li><li>Tal-, spr\u00E5k- och kommunikationstr\u00E4ning \u00E4r viktigt.</li><LI>Munmotorisk tr\u00E4ning och stimulering kan vara aktuellt.</LI></UL>",
+    "Bild": "",
+    "Bildtext": ""
+}, {
+    "Syndrom": "Landau-Kleffner syndrome",
+    "Lang": "eng",
+    "Allm_icd_10": "F80.3",
+    "Allm_synonymer": "",
+    "Allm_orsak": "Landau-Kleffner syndrome is an acquired epileptic language disorder with an onset typically occurring between 3 and 8 years of age. The cause is not known but there may be genetic factors. ",
+	"Allm_forekomst": "Rare.",
+    "Allm_allm_symtom": "The first symptoms are often that the child suddenly or gradually loses the ability to speak or understand words. Other symptoms are electrophysiological disturbances in the brain that can result in epileptic seizures, generally during the night. The child may also find it difficult to interpret common sounds. Lack of attention and concentration difficulties are not unusual. Some affected children make a full or near-full recovery and epileptic seizures may completely disappear after adolescence. Some degree of problems with speech, language, communication, learning and behavioural may remain, however.",
+    "Orala_symtom": "Children with Landau-Kleffner syndrome gradually or suddenly lose the ability to speak and understand words. There are no specific problems with the teeth or bite among affected children, but oral motor difficulties may occur which can sometimes result in eating difficulties and reduced saliva control.",
+    "Rekommendationer": "<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential for children with Landau-Kleffner syndrome. Certain medications can cause dry mouth and increased risk of tooth decay</LI><LI>Speech, language and communication training is often warranted.</LI><LI>Training in oral motor skills and extra stimulation may be necessary.</LI></UL>",
+    "Bild": "",
+    "Bildtext": ""
+}, {
     "Syndrom": "Laurence-Moon-Bardet-Biedl syndrom (LMBB)",
     "Lang": "swe",
     "Allm_icd_10": "Q87.8",
@@ -1100,6 +1148,30 @@ var jsonStr = [{
     "Allm_allm_symtom": "Stora individuella variationer och inom samma familj. Personer med Marfans syndrom \u00e4r ofta v\u00e4ldigt l\u00e5nga och smala, med smala armar, ben, fingrar och f\u00f6tter. Det \u00e4r vanligt med problem fr\u00e5n muskler och skelett, ledv\u00e4rk, \u00f6verr\u00f6rlighet och plattfot. Striae (hudbristningar) syns ofta. Vidare f\u00f6rekommer vidgning av stora kroppspuls\u00e5dern (aorta&shy;aneurysm) - med \u00f6kad risk f\u00f6r aortadissektion - och hj\u00e4rtklaffel, framf\u00f6rallt mitralis- och aorta&shy;klaffar. \u00d6gonproblem och lungproblem \u00e4r vanligt.",
     "Orala_symtom": "Det \u00e4r vanligt med en h\u00f6g, och ibland smal, gom och d\u00e5ligt med plats f\u00f6r t\u00e4nderna. Snarkning och \u00f6kad risk f\u00f6r s\u00f6mnapn\u00e9 kan f\u00f6rekomma. Tr\u00e5nga kanaler till bih\u00e5lorna \u00f6kar risken f\u00f6r bih\u00e5le- och \u00f6roninflammationer. K\u00e4klederna \u00e4r ofta p\u00e5verkade. Instabilitet i k\u00e4kledernas ledkapslar kan f\u00f6rekomma. Tandgnissling\/pressning medf\u00f6r extra stor belastning p\u00e5 k\u00e4klederna och kan \u00f6ka ledproblemen. Av samma anledning kan det vara besv\u00e4rligt f\u00f6r patienten att gapa stort och l\u00e4nge under tandv\u00e5rdsbes\u00f6k.",
     "Rekommendationer": "<UL><LI>F\u00f6rst\u00e4rkt f\u00f6rebyggande tandv\u00e5rd kan vara aktuellt vid Marfans syndrom f\u00f6r att i framtiden slippa l\u00e5nga tandbehandlingar som p\u00e5frestar k\u00e4kleden. \u00c4ven risken f\u00f6r bakteriespridning fr\u00e5n munh\u00e5lan till defekta hj\u00e4rtklaffar med efterf\u00f6ljande endokardit, talar f\u00f6r behov av extra f\u00f6rebyggande insatser f\u00f6r att undvika ingrepp i munh\u00e5lan d\u00e4r bakterier riskerar n\u00e5 blodbanan. <\/LI><LI>Tand- och bettutveckling ska f\u00f6ljas. Vid avvikelser ska ortodontist konsulteras p\u00e5 tidigt stadium f\u00f6r planering av eventuell bettkorrigerande behandling. <\/LI><LI>Bettfysiologisk behandling med t e x bettskena kan vara aktuellt vid problem fr\u00e5n k\u00e4kleden. <\/LI><LI>Snarkproblematik b\u00f6r f\u00f6ljas upp av l\u00e4kare. <\/LI><LI>L\u00e4karkontakt rekommenderas f\u00f6re tandbehandling vid medicinska tillst\u00e5nd, som t.ex. hj\u00e4rtfel. <\/LI><\/UL>",
+    "Bild": "",
+    "Bildtext": ""
+},{
+    "Syndrom": "Marker chromosome 15 syndrome",
+    "Lang": "eng",
+    "Allm_icd_10": "Q99.8",
+    "Allm_synonymer": "",
+    "Allm_orsak": "These children are born with an extra chromosome, a so-called marker chromosome, which contains genetic material from chromosome 15. ",
+    "Allm_forekomst": "3 in 100,000 live births.",
+    "Allm_allm_symtom": "People with marker chromosome 15 syndrome often have intellectual disabilities, low muscle tension, poor locomotor development, autism spectrum disorder and sometimes epilepsy. Many of those affected have stomach and intestinal disorders.  ",
+    "Orala_symtom": "There may be some common characteristics in the diagnosis. Many children with this syndrome find it difficult to accept dental treatment and brush their teeth. Some medicines may produce side effects in the form of a dry mouth, which can increase the risk of tooth decay. Problems with sucking, eating and swallowing occur mainly during infancy. Speech, language and communication difficulties are common.",
+    "Rekommendationer": "<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential for people with Marker chromosome 15 syndrome.</LI><LI>Training in oral motor skills and extra stimulation in cases of eating disorders, speech difficulties and impaired saliva control may be necessary.</LI><LI>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.</LI><LI>Speech, language and communication training is important.</LI><UL>",
+    "Bild": "",
+    "Bildtext": ""
+}, {
+    "Syndrom": "Mark\u00F6rkromosom 15-syndromet",
+    "Lang": "swe",
+    "Allm_icd_10": "Q99.8",
+    "Allm_synonymer": "",
+    "Allm_orsak": "Barnen f\u00F6ds med en extra kromosom - en s\u00E5 kallad mark\u00F6rkromosom - som har genetiskt material fr\u00E5n kromosom 15.",
+    "Allm_forekomst": "3:100 000 levande f\u00F6dda",
+    "Allm_allm_symtom": "Personer med mark\u00F6rkrosom 15-syndromet har ofta intellektuell funktionsneds\u00E4ttning, l\u00E5g muskelsp\u00E4nning, p\u00E5verkan p\u00E5 den motoriska utvecklingen, autismspektrumtillst\u00E5nd och ibland epilepsi. M\u00E5nga har mag-tarmbesv\u00E4r. ",
+    "Orala_symtom": "Vissa gemensamma drag kan finnas f\u00F6r diagnosen. M\u00E5nga av barnen har sv\u00E5rt att medverka vid tandbehandling och tandborstning. Vissa mediciner kan ge biverkningar i form av muntorrhet och d\u00E4rmed ge \u00F6kad risk f\u00F6r karies. Sug- och sv\u00E4ljsv\u00E5righeter f\u00F6rekommer, framf\u00F6rallt under sp\u00E4dbarnstiden. Tal-, spr\u00E5k- och kommunikationssv\u00E5righeter \u00E4r vanligt.",
+    "Rekommendationer": "<UL><LI>Viktigt att personer med Mark\u00F6rkromosom 15-syndromet tidigt f\u00E5r kontakt med tandv\u00E5rden f\u00F6r f\u00F6rst\u00E4rkt f\u00F6rebyggande v\u00E5rd och munh\u00E4lsoinformation. </LI><LI>Munmotorisk tr\u00E4ning och stimulering kan vara aktuellt vid \u00E4tsv\u00E5righeter, talsv\u00E5righeter och nedsatt salivkontroll. </LI><LI>\u00C4t- och sv\u00E4ljsv\u00E5righeter utreds och behandlas av specialistteam p\u00E5 sjukhus eller p\u00E5 habiliteringen.</LI><LI>Tal-, spr\u00E5k- och kommunikationstr\u00E4ning \u00E4r viktigt.</LI><UL>",
     "Bild": "",
     "Bildtext": ""
 }, {
@@ -1342,7 +1414,31 @@ var jsonStr = [{
     "Rekommendationer":"<ul><li>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential in cases of difficulty with managing dental treatment and tooth brushing.<\/li>\n<li>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.<\/li>\n<li>Oral motor training and stimulation may be appropriate in cases of eating difficulties, speaking difficulties and reduced saliva control.<\/li>\n<li>\tSpeech, language and communication training is often warranted.<\/li><\/ul>",
     "Bild":"",
     "Bildtext":""
+},  {
+    "Syndrom":"Potocki-Lupskis syndrom",
+    "Lang":"swe",
+    "Allm_icd_10":"Q99.8",
+    "Allm_synonymer":"PTLS",
+    "Allm_orsak":"Potocki-Lupskis syndrom orsakas av duplikation av en bit p\u00E5 kromosom 17 (17p11.2).",
+    "Allm_forekomst":"4:100 000 levande f\u00F6dda",
+    "Allm_allm_symtom":"Barn med Potocki-Lupskis syndrom har i allm\u00E4nhet en sen utveckling och inl\u00E4rningssv\u00E5righeter av varierande grad. De flesta har en lindrig till m\u00E5ttlig utvecklingsst\u00F6rning samt diagnos autism eller autistiska drag. En f\u00F6rsenad motorisk utveckling ses p\u00E5 grund av den nedsatta muskelsp\u00E4nningen. S\u00F6mnproblem med andningsuppeh\u00E5ll f\u00F6rekommer liksom ljus- och ljudk\u00E4nslighet. Drygt 50% av barnen med Potocki-Lupskis syndrom har n\u00E5gon typ av hj\u00E4rtfel.",
+    "Orala_symtom":"Det finns vissa karakt\u00E4ristiska ansiktsdrag f\u00F6rknippade med diagnosen. Nedsatt muskelsp\u00E4nning och matningssv\u00E5righeter \u00E4r mycket vanligt under sp\u00E4dbarnstiden. \u00C4tsv\u00E5righeter, gastroesofageal reflux och kr\u00E4kningar f\u00F6rekommer ofta. St\u00F6rd tal- och spr\u00E5kutveckling ses hos n\u00E4stan alla barn med denna diagnos. Vissa kan ha h\u00F6gt gomvalv liksom tr\u00E5ngst\u00E4llning i bettet.",
+    "Rekommendationer":"<ul><li>Viktigt att personer med Potocki-Lupskis syndrom tidigt f\u00E5r kontakt med tandv\u00E5rden f\u00F6r f\u00F6rst\u00E4rkt f\u00F6rebyggande v\u00E5rd och munh\u00E4lsoinformation.</li><li>Tand- och bettutveckling ska f\u00F6ljas. Vid avvikelser ska ortodontist konsulteras p\u00E5 tidigt stadium f\u00F6r planering av eventuell bettkorrigerande behandling. </li><li>L\u00E4karkontakt rekommenderas inf\u00F6r tandbehandling av patienter med medicinska tillst\u00E5nd, som t.ex. hj\u00E4rtfel. </li><li>Munmotorisk tr\u00E4ning och stimulering kan vara aktuellt vid \u00E4tsv\u00E5righeter, talsv\u00E5righeter och nedsatt salivkontroll. </li><li>Tal-, spr\u00E5k- och kommunikationstr\u00E4ning \u00E4r ofta motiverat. </li><li>\u00C4t- och sv\u00E4ljsv\u00E5righeter utreds och behandlas av specialistteam p\u00E5 sjukhus eller p\u00E5 habiliteringen.</li></ul>",
+    "Bild":"",
+    "Bildtext":""
 }, {
+    "Syndrom":"Potocki-Lupski syndrome",
+    "Lang":"eng",
+    "Allm_icd_10":"Q99.8",
+    "Allm_synonymer":"PTLS",
+    "Allm_orsak":"Potocki-Lupski syndrome is caused by the duplication of part of chromosome 17 (17p11.2),",
+    "Allm_forekomst":"4 in 100,000 live births",
+    "Allm_allm_symtom":"Children with Potocki-Lupski syndrome generally show late development and learning difficulties to varying degrees. Most have mild to moderate intellectual disabilities with a diagnosis of autism or autistic characteristics. Delayed motor development occurs due to reduced muscle tension. Sleeping problems with apnoea also occur, as does over-sensitivity to light and sound. Just over 50% of children with Potocki-Lupski syndrome have some kind of heart defect.",
+    "Orala_symtom":"There are some typical facial characteristics associated with the diagnosis. Reduced muscle tension (hypotonus) is very common during infancy, and feeding difficulties are common. Acid reflux and vomiting often occur. Speech disorders and poor language development are seen in almost all children with this diagnosis. Some may have a high palate as well as crowded teeth.",
+    "Rekommendationer":"<ul><li>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential.</li><li>Regular check-ups of dental and jaw development. Orthodontist should be consulted when needed.</li><li>When treating medically compromised patients always contact their doctor for medical advice (bleeding problems, heart diseases etc). </li><li>Training in oral motor skills and extra stimulation in cases of eating disorders, speech difficulties and impaired saliva control may be necessary.</li><li>Feeding and swallowing difficulties are investigated and treated by a specialist team at the hospital or multidisciplinary treatment centre.</li></ul>",
+    "Bild":"",
+    "Bildtext":""
+},{
     "Syndrom": "Prader-Willi syndrome (PWS)",
     "Lang": "eng",
     "Allm_icd_10": "Q87.1F",
@@ -1559,6 +1655,30 @@ var jsonStr = [{
     "Bild": "",
     "Bildtext": ""
 }, {
+    "Syndrom": "Sj\u00F6gren-Larsson syndrome",
+    "Lang": "eng",
+    "Allm_icd_10": "Q87.1K",
+    "Allm_synonymer": "SLS",
+    "Allm_orsak": "Sj\u00F6gren-Larsson syndrome is caused by changes to chromosome 17. The gene is a template for the production of the FALDH enzyme (fatty aldehyde dehydrogenase). FALDH deficiency leads to the accumulation of fatty aldehydes and fatty alcohols in body tissues, which are considered to explain the clinical symptoms of Sj\u00F6gren-Larsson syndrome. Autosomal recessive inheritance. ",
+    "Allm_forekomst": " 1 in 200,000 live births.",
+    "Allm_allm_symtom": "People with Sj\u00F6gren-Larsson syndrome have congenital skin changes (ichthyosis) in the form of dry, scaly, thickened skin. The intense itching that remains throughout the persons life is a major problem. All those affected have functional and intellectual disabilities that vary in degree. Vision is also influenced, with over-sensitivity to 	light and myopia. Hearing may be affected by flakes of skin that accumulate in the ear canals. Epilepsy occurs in approximately 40% of cases. 	The ability to sweat is often affected, and many are sensitive to heat.",
+    "Orala_symtom": "Delayed speech and language development and stuttering are common. Some are affected in their oral motor functions, which can lead to eating problems and reduced saliva control. ",
+    "Rekommendationer": "<UL><LI>Early contact with dental services for intensified prophylactic care and oral hygiene information is essential for people with Sj\u00F6gren-Larsson syndrome.</LI><LI>Training in oral motor skills and extra stimulation in cases of eating disorders, speech difficulties and impaired saliva control may be necessary.</LI><LI>Speech, language and communication training are often required.</LI></UL>",
+    "Bild": "",
+    "Bildtext": ""
+},{
+    "Syndrom": "Sj\u00F6gren-Larssons syndrom",
+    "Lang": "swe",
+    "Allm_icd_10": "Q87.1K",
+    "Allm_synonymer": "SLS",
+    "Allm_orsak": "Sj\u00F6gren-Larssons syndrom orsakas av en f\u00F6r\u00E4ndring som finns p\u00E5 kromosom 17. Genen \u00E4r en mall f\u00F6r tillverkning av proteinet FALDH (fettaldehyd-dehydrogenas). Bristen p\u00E5 FALDH leder till anhopning av fettaldehyder och fettalkoholer i kroppsv\u00E4vnader vilket anses f\u00F6rklara de kliniska symtomen vid Sj\u00F6gren-Larssons syndrom. Autosomalt recessiv ned\u00E4rvning. ",
+    "Allm_forekomst": "1:200 000 levande f\u00F6dda.",
+    "Allm_allm_symtom": "Personer med Sj\u00F6gren-Larssons syndrom har en medf\u00F6dd hudf\u00F6r\u00E4ndring (iktyos) i form av torr, fj\u00E4llig och f\u00F6rtjockad hud. En intensiv kl\u00E5da som varar hela livet \u00E4r ett stort bekymmer. Alla har motorisk och intellektuell funktionsneds\u00E4ttning av varierande grad. Synen \u00E4r p\u00E5verkad, bland annat genom ljusk\u00E4nslighet och n\u00E4rsynthet. H\u00F6rseln kan p\u00E5verkas av hudfj\u00E4ll som ansamlas i h\u00F6rselg\u00E5ngen. Epilepsi ses hos ca 40%. Det \u00E4r vanligt att f\u00F6rm\u00E5gan att svettas \u00E4r p\u00E5verkad och att man \u00E4r k\u00E4nslig f\u00F6r v\u00E4rme.",
+    "Orala_symtom": "F\u00F6rsenad tal- och spr\u00E5kutveckling och stamning \u00E4r vanligt. N\u00E5gra har p\u00E5verkan p\u00E5 munmotoriken vilket kan leda till \u00E4tsv\u00E5righeter och salivl\u00E4ckage.",
+    "Rekommendationer": "<UL><LI>Viktigt att personer med Sj\u00F6gren-Larssons syndrom tidigt f\u00E5r kontakt med tandv\u00E5rden f\u00F6r f\u00F6rst\u00E4rkt f\u00F6rebyggande v\u00E5rd och munh\u00E4lsoinformation.</LI><LI>Munmotorisk tr\u00E4ning och stimulering kan vara aktuellt vid \u00E4tsv\u00E5righeter, talsv\u00E5righeter och nedsatt salivkontroll. </LI><LI>Tal-, spr\u00E5k- och kommunikationstr\u00E4ning \u00E4r ofta motiverat. </LI></UL>",
+    "Bild": "",
+    "Bildtext": ""
+},  {
     "Syndrom": "Smith-Magenis syndrom",
     "Lang": "swe",
     "Allm_icd_10": "Q87.8",
