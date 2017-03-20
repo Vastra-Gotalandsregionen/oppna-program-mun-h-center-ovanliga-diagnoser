@@ -1,4 +1,4 @@
-var version = "7"; //Increment with every database update
+var version = "8"; //Increment with every database update
 var db;
 // Wait for PhoneGap to load
 //document.addEventListener("deviceready", onDeviceReady, false);
