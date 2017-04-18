@@ -4,39 +4,22 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {
-            "res/xml/config.xml": {
-                "parents": {
-                    "/*": [
-                        {
-                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
-                            "count": 1
-                        }
-                    ]
-                }
-            },
-            "config.xml": {
-                "parents": {
-                    "/*": [
-                        {
-                            "xml": "<preference name=\"Fullscreen\" value=\"true\" />",
-                            "count": 1
-                        }
-                    ]
-                }
-            }
-        }
+        "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "se.vgr.munhalsan"
+        }
+    },
+    "dependent_plugins": {
         "cordova-plugin-console": {
+            "PACKAGE_NAME": "Se.vgregion.munhc"
+        },
+        "cordova-plugin-device": {
             "PACKAGE_NAME": "Se.vgregion.munhc"
         },
         "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
             "PACKAGE_NAME": "Se.vgregion.munhc"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "se.vgr.munhalsan"
         }
-    },
-    "dependent_plugins": {}
+    }
 }
