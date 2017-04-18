@@ -8,7 +8,7 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "se.vgr.munhalsan"
+            "PACKAGE_NAME": "Se.vgregion.munhc"
         }
     },
     "dependent_plugins": {
